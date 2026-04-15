@@ -21,7 +21,6 @@
 
       "valence": ["\\left\\{\\begin{smallmatrix} #1 \\\\ #2 \\end{smallmatrix}\\right\\}", 2],
 
-      "wedge": "\\wedge",
       "ext": "\\mathbf{d}",
       "hodge": "\\star",
 
@@ -40,11 +39,8 @@
       "pois": ["\\left\\{ #1,\\, #2 \\right\\}", 2],
 
       "tr": "\\operatorname{tr}",
-      "det": "\\det",
       "diag": "\\operatorname{diag}",
       "rank": "\\operatorname{rank}",
-      "dim": "\\dim",
-      "ker": "\\ker",
       "im": "\\operatorname{im}",
       "span": "\\operatorname{span}",
 
@@ -188,8 +184,6 @@
 
       "sup": "\\operatorname{sup}",
       "inf": "\\operatorname{inf}",
-      "limsup": "\\limsup",
-      "liminf": "\\liminf",
       "eps": "\\varepsilon",
       "dl": "\\delta",
       "seq": ["\\left\\{ #1 \\right\\}_{#2}", 2],
@@ -220,7 +214,6 @@
       "config": "\\mathcal{Q}",
 
       "res": ["\\operatorname{Res}_{#1}", 1],
-      "oint": "\\oint",
       "Log": "\\operatorname{Log}",
       "Arg": "\\operatorname{Arg}",
       "Re": "\\operatorname{Re}",

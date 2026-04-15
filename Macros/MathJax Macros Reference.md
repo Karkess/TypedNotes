@@ -45,11 +45,11 @@ Macros are defined in [.crossnote/config.js](.crossnote/config.js) and loaded gl
 | `\dsum` | `$V \dsum W$` | Direct sum $\oplus$ |
 | `\iso` | `$V \iso W$` | Isomorphism $\cong$ |
 | `\tr` | `$\tr(A)$` | Trace |
-| `\det` | `$\det(A)$` | Determinant |
+| `\det` | `$\det(A)$` | Determinant (native MathJax) |
 | `\diag` | `$\diag(\lambda_i)$` | Diagonal |
 | `\rank` | `$\rank(A)$` | Rank |
-| `\dim` | `$\dim V$` | Dimension |
-| `\ker` | `$\ker T$` | Kernel |
+| `\dim` | `$\dim V$` | Dimension (native MathJax) |
+| `\ker` | `$\ker T$` | Kernel (native MathJax) |
 | `\im` | `$\im T$` | Image |
 | `\span` | `$\span(S)$` | Span |
 | `\hom` | `$\hom(V,W)$` | Hom set |
@@ -116,7 +116,7 @@ Macros are defined in [.crossnote/config.js](.crossnote/config.js) and loaded gl
 | `\valence{p}{q}` | `$\valence{p}{q}$` | Needham tensor valence (curly braces) |
 | `\ulteq` | `$f \ulteq g$` | Needham ultimate equality $\asymp$ |
 | `\ext` | `$\ext \omega$` | Exterior derivative $\mathbf{d}$ |
-| `\wedge` | `$\alpha \wedge \beta$` | Wedge product |
+| `\wedge` | `$\alpha \wedge \beta$` | Wedge product (native MathJax) |
 | `\hodge` | `$\hodge \omega$` | Hodge star $\star$ |
 | `\chris{i}{j}{k}` | `$\chris{i}{j}{k}$` | Christoffel symbol $\Gamma^i_{jk}$ |
 | `\affconns{i}{j}{k}` | `$\affconns{i}{j}{k}$` | Christoffel (spaced subscripts) |
@@ -280,8 +280,8 @@ Macros are defined in [.crossnote/config.js](.crossnote/config.js) and loaded gl
 |---|---|---|
 | `\sup` | `$\sup S$` | Supremum |
 | `\inf` | `$\inf S$` | Infimum |
-| `\limsup` | `$\limsup a_n$` | Limit superior |
-| `\liminf` | `$\liminf a_n$` | Limit inferior |
+| `\limsup` | `$\limsup a_n$` | Limit superior (native MathJax) |
+| `\liminf` | `$\liminf a_n$` | Limit inferior (native MathJax) |
 | `\eps` | `$\eps$` | $\varepsilon$ |
 | `\dl` | `$\dl$` | $\delta$ |
 | `\seq{a_n}{n=1}` | `$\seq{a_n}{n=1}^\infty$` | Sequence $\{a_n\}_{n=1}$ |
@@ -327,7 +327,7 @@ Macros are defined in [.crossnote/config.js](.crossnote/config.js) and loaded gl
 | Macro | Input | Output |
 |---|---|---|
 | `\res{z_0}` | `$\res{z_0} f(z)$` | Residue $\operatorname{Res}_{z_0}$ |
-| `\oint` | `$\oint_C f\,dz$` | Contour integral |
+| `\oint` | `$\oint_C f\,dz$` | Contour integral (native MathJax) |
 | `\Log` | `$\Log z$` | Principal logarithm |
 | `\Arg` | `$\Arg z$` | Principal argument |
 | `\Re` | `$\Re(z)$` | Real part |

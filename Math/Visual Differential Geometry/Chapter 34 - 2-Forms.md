@@ -221,4 +221,12 @@ Naturally, if $p=2$, we have a 2-form. Higher values of $p$ aren't too common, b
 
 ---
 ## 34.2 Example: The Area 2-Form
-In $\R^2$ let us define: $$\cal{A}(\vec{u},\vec{v})$
+In $\R^2$ let us define: $$\cal{A}(\vec{u},\vec{v})=\text{oriented area of a parallelogram with edges }\v{u}\text{ and }\v{v}$$ This $\cal{A}$ is a $2$-Form! 
+
+Note that for an arbitrary 2-Form: $$\Psi(\v{u},\v{u})=0.$$
+
+And by antisymmetry of course $\Psi(\v{y},\v{x})=-\Psi(\v{x},\v{y})$. 
+
+---
+## 34.3 The Wedge Product of Two 1-forms
+Recall that any tensor of valence $\valence{0}{2}$ can be split into a sum of a symmetric tensor and antisymmetric tensor. 
