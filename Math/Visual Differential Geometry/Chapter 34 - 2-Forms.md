@@ -212,4 +212,13 @@ $$
 
 ---
 ## 34.1 Definition of a 2-Form and of a $p$-form
-We defined several vitally important tensors of valence 
+We defined several vitally important tensors of valence $\valence{0}{2}$ that are *symmetric*, the metric tensor, the Ricci tensor, the energy-momentum tensor, and the Einstein tensor. Now we focus on antisymmetry.
+
+Starting with a general definition of a p-form: 
+*A **$p$-form**, also called a differential form of **degree** $p$, is a **completely antisymmetric** tensor of valence $\valence{0}{p}$, meaning that swapping any two of the vector inputs swaps its sign*. 
+
+Naturally, if $p=2$, we have a 2-form. Higher values of $p$ aren't too common, but arise in some important applications of Forms, such as ***Symplectic Manifolds*** that naturally arise in Hamiltonian mechanics.
+
+---
+## 34.2 Example: The Area 2-Form
+In $\R^2$ let us define: $$\cal{A}(\vec{u},\vec{v})$
