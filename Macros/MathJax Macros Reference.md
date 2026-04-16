@@ -39,8 +39,8 @@ Macros are defined in [.crossnote/config.js](.crossnote/config.js) and loaded gl
 | `\v{a}` | `$\v{a}$` | Vector arrow $\vec{a}$ |
 | `\bvec{v}` | `$\bvec{v}$` | Bold vector |
 | `\uvec{e}` | `$\uvec{e}$` | Unit vector $\hat{\mathbf{e}}$ |
-| `\dvec{x}` | `$\dvec{x}$` | $\dot{\vec{x}}$ |
-| `\ddvec{x}` | `$\ddvec{x}$` | $\ddot{\vec{x}}$ |
+| `\dvec{x}` / `\dv{x}` | `$\dvec{x}$` | $\dot{\vec{x}}$ |
+| `\ddvec{x}` / `\ddv{x}` | `$\ddvec{x}$` | $\ddot{\vec{x}}$ |
 | `\tens` | `$V \tens W$` | Tensor product $\otimes$ |
 | `\dsum` | `$V \dsum W$` | Direct sum $\oplus$ |
 | `\iso` | `$V \iso W$` | Isomorphism $\cong$ |

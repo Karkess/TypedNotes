@@ -74,6 +74,8 @@
       "uvec": ["\\hat{\\mathbf{#1}}", 1],
       "dvec": ["\\dot{\\vec{#1}}", 1],
       "ddvec": ["\\ddot{\\vec{#1}}", 1],
+      "dv": ["\\dot{\\vec{#1}}", 1],
+      "ddv": ["\\ddot{\\vec{#1}}", 1],
       "metric": ["g_{#1 #2}", 2],
       "invmetric": ["g^{#1 #2}", 2],
       "covd": ["\\nabla_{#1}", 1],
@@ -265,7 +267,12 @@
       "pullback": ["#1^{*}", 1],
       "pushfwd": ["#1_{*}", 1],
 
-      "v": ["\\vec{#1}", 1]
+      "v": ["\\vec{#1}", 1],
+
+      "cal": ["\\mathcal{#1}", 1],
+      "bf": ["\\mathbf{#1}", 1],
+
+      "ul": ["\\underline{#1}", 1]
     }
   },
   "options": {},
