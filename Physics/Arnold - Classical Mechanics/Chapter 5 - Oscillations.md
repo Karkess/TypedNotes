@@ -66,4 +66,45 @@ Thus we have proved:
 
 A general solution for characteristic oscillations from LAgrange's equations can be found when $\lambda\neq0$ with the form $$\vec{q}(t)=\mathrm{Re}\sum^n_{k=1}C_ke^{i\omega_kt}\xi_k$$
 
+---
 ## 24. Behavior of Characteristic Frequencies
+This chapter will prove he Rayleigh-Courant-Fisher theorem on the behavior of characteristic frequencies of a system under increases in rigidity and under imposed constraints. 
+
+### A. Behavior of characteristic frequencies under a change in rigidity
+Consider a system performing small oscillations, with kinetic and potential energies 
+$$T=\frac{1}{2}(A\dv{q},\dv{q})>0\text{   and   }U=\frac{1}{2}(B\v{q},\v{q})>0\quad\forall\;\;\;\v{q},\dv{q}\neq0.$$
+
+**Definition.** A system with the same kinetic energy, and a new potential energy $U'$ is called *more rigid* if $U'=\frac{1}{2}(B'\v{q},\v{q})\ge\frac{1}{2}(B\v{q},\v{q})=U$ for all $\v{q}$. 
+
+**Theorem 1** *Under an increase in rigidity, all the characteristic frewuencies are increased, i.e., if $\omega_1\le\omega_2\le\dots\le\omega_n$ are the characteristic frequencies of a less rigid system, and $\omega'_1\le\omega'_2\le\dots\le\omega'_n$ are the characteristic frequencies of the more rigid system, then $\omega_1\le\omega'_1;\dots;\omega_n\le\omega'_n$.*
+
+This theorem has a simple geometric meaning, WLOG we assume if A=E and a euclidean structure where $T=\frac{1}{2}(\dv{q},\dv{q})$, to each system we associate the ellipsoids $E:(B\v{q},\v{q})=1$ and $E':(B'\v{q},\v{q})=1.$, we see that
+
+**Lemma 1.** *If the system $U'$ is more rigid than $U$, then the corresponding ellipsoid $E'$ lies inside $E$.*
+
+We also see that 
+
+**Lemma 2.** *The semi-major axes of the ellipsoid are the inverses of the characteristic frequencies $\omega_i:\omega_i=\frac{1}{a_i}$.*
+
+**Theorem 2.** If the ellisoid $E$ with a semi-axes $a_1\ge a_2\ge\cdots\ge a_n$ contains the ellipsoid $E'$ with semi-axes $a'_1\ge a'_2\ge\cdots\ge a'_n$, both ellipses having the same center, then the semi-axes inside the ellipsoid are smaller
+$$a_1\ge a'_1,\cdots,a_n\ge a'_n.$$
+
+---
+### B. Behavior of characteristic frequencies under the imposition of a constraint
+
+We return to a general system with $n$ degrees of freedom, and let $T=\frac{1}{2}(\dv{q},\dv{q})$ and $U=\frac{1}{2}(B\v{q},\v{q})(q\in\R^n)$ be the kinetic and potential energies of a system performing small oscillations. 
+
+Let $\R^{n-1}\subset\R^n$ be an $(n-1)$-dimensional subspace in $\R^n$. Consider the system with $n-1$ degrees of freedom $(q\in\R^{n-1})$ whose kinetic and potential energies are the restrictions of $T$ and $U$ to $\R^{n-1}$. We say this system is obtained from the original by *imposition of a linear constraint*. 
+
+Let $\omega_1\le\dots\le\omega_n$ be the $n$ characterstic frequencies of the original system, and $\omega'_1\le\dots\le\omega'_{n-1}$ the $(n-1)$ characteristic frequencies of the system with a constraint. 
+
+**Theorem 3.** *The characterstic frequencies of the system with a constraint separate the characteristic frequencies of the original system* 
+$$\omega_1\le\omega'_1\le\dots\le\omega_{n-1}\le\omega'_{n-1}\le\omega_n$$.
+
+**Theorem 4.** *Consider the cross-section of the n-dimensional ellipsoid $E=\{\v{q}:(B\v{q},\v{q})=1\}$ with semi-axes $a_1\ge a_2\ge\dots\ge a_n$ by a hyperplane $\R^n-1$ through its center. Then the semi-axes of this $(n-1)$-dimensional ellipsoid-the cross section $E'$-separate the semi-axes of the ellipsoid $E$:*
+$$a_1\ge a'_1\ge\cdots\ge a_{n-1}\ge a'_{n-1}\ge a_n.$$ 
+
+---
+### C. Extremal properties of eigenvalues
+**Theorem 5.** *The smallest semi-axis of any cross section of the ellipsoid $E$ with semi-axes $a_1\ge a_2\ge\cdots\ge a_n$ by a subspace $\R^k$ is less than or equal to $a_k$*
+$$a_k=\max_{\{\R^k\}}\min_{\v{x}\in\R^k\cap E}||\vec{x}||.$$ *(The upper bound is attained on the subspace spanned by the semi-axes $a_1\ge a_2\ge\cdots\ge a_k$).*
