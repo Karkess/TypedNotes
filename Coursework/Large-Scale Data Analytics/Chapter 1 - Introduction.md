@@ -71,3 +71,29 @@ One issue with MPI is you need to explicitly determine what each node is going t
 In general, HPC is set up for huge calculations with relatively small data (This is what I use it for, calculating atomic trajectories for example), and so big data problems simply do not scale up. In summary, HPC is not big data. 
 
 **What do we have to do differently to tackle data intensive jobs?**
+
+In HPCs, the local data drives aren't really used, and data has to be transferred as needed. Why don't we use them to keep a fraction of data at every node? This is called *data locality*. Distrubuting data and having some replication of data allows for more data to be processed at the same time and provides higher fault tolerance and is representative of big data centers. 
+
+Data is then chunked and sent in groups of chunks to each computer and some chunks are replicated. 
+
+Big data clusters focus on data-intensive jobs rather than compute-intensive jobs and are usually equipped with things with good I/O performance. 
+
+### 1.4.2 - Distributed Systems for Data-Intensive Jobs 
+
+When training large machine learning models, a big data cluster is the way to do the job, and we are not really interested in knowing which specific machine is handling what data. We do want to know how to handle if there is an issue with a node processing data so we can evaluate the data still. 
+
+We will soon be introduced to **MapReduce**, which is based on the following idea:
+- Moving computation is cheaper than moving computation and data at the same time. 
+
+In summary, data will be distributed among nodes using a distributed file system. We will program the functions/operations to process data, and those pieces of code will be distributed to all the computing nodes; each computing node will work with the data stored locally. Only the necessary data should be moved across the network, as there will be occasions in whihc data movement is indeed required.
+
+---
+## 1.5 - Take-Home Message
+
+This chapter has introduced what we mean by big data, its importance, and the key principles for handling it efficiently. The take-away messages of this chapter are:
+
+- Big data is not all about *volume* of data. 
+- The world of big data has multiple faces and challenges such as databases, infrastructure, and security and prtivacy, but we are interested in the idea of analyzing and extracting knowledge from big data with machine learning techniques.
+- Scale-up is not the way to go for big data. We want to *scale-out*.
+- The characteristics and requirements of a big data cluster are different from those usually found in HPC. The focus is on data-intensive jobs rather than pure computation, where hardware does not have to be high-end and failures may happen.
+- The principle of *data locality* tells us that to deal effectively with big data we should reduce data movement across the network, aiming to keep data on the nodes that are going to process it (whenever possible). 
