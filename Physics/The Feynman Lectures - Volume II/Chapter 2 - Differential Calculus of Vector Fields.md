@@ -14,7 +14,7 @@ Much historical development is left out here, and is best worked backwards.
 
 I'll get around to those books eventually. I read part of one on Faraday that was very interesting, I'm not sure why I stopped, honestly. Perhaps sidetracked, I recall enjoying it. 
 
-## 2.2 - Scalar and Vector feids - $T$ and $h$
+## 2.2 - Scalar and Vector fields - $T$ and $h$
 
 A few vector algebra identities: $$\vec{A}\cdot\vec{B}=\text{scalar}=A_xB_x+A_yB_y+A_zB_z$$$$\vec{A}\times\vec{B}=\text{vector}=\begin{aligned}(\vec{A}\times\vec{B})_z&=A_xB_y-A_yB_x\\+\quad\:\:\:&\quad\quad\quad\:\:\:\,+\\(\vec{A}\times\vec{B})_x&=A_yB_z-A_zB_y\\+\quad\:\:\:&\quad\quad\quad\:\:\:\,+\\(\vec{A}\times\vec{B})_y&=A_zB_x-A_xB_z\end{aligned}$$$$\vec{A}\times\vec{A}=0$$$$\vec{A}\cdot(\vec{A}\times\vec{B})=0$$$$\vec{A}\cdot(\vec{B}\times\vec{C})=(\vec{A}\times\vec{B})\cdot\vec{C}$$$$\vec{A}(\vec{B}\times\vec{C})=\vec{B}(\vec{A}\cdot\vec{C})-\vec{C}(\vec{A}\cdot\vec{B})$$
 
@@ -27,7 +27,7 @@ The first of these two, of course, only true in the limit that $\Delta x,\Delta 
 ---
 Scalar fields are simple fields with one value at each point in space. A vector field is a field with a vector at each value in space. 
 
-The example given which gives rise to one variable in the title of this section is that of a gradiant of temperatures over an object being heated and cooled, and such the temperature at each point can be represented as a function of a scalar field: $T(x,y,z)$. 
+The example given which gives rise to one variable in the title of this section is that of a gradient of temperatures over an object being heated and cooled, and such the temperature at each point can be represented as a function of a scalar field: $T(x,y,z)$. 
 
 The flow of heat, however, will be different in direction and magnitude dependent on the place, flowing more from hot to cold as a convention, for example, which we may call $h$, a vector field.
 
@@ -55,11 +55,11 @@ Which allows us to properly write those equations from chapter one: $$Maxwell's\
 
 ---
 ## 2.6 The differential Equation of Heat Flow
-If  you have heat flowing through a simple slab, analyzing two faces with the same flat area $A$, temperature is propertional to this area, the temperature difference between the faces, and inversely proportional to the distance between them. This all with a constant dependent on the material. We write this $$J=\kappa(T_2-T_1)\frac{A}{d}.$$
+If  you have heat flowing through a simple slab, analyzing two faces with the same flat area $A$, temperature is proportional to this area, the temperature difference between the faces, and inversely proportional to the distance between them. This all with a constant dependent on the material. We write this $$J=\kappa(T_2-T_1)\frac{A}{d}.$$
 
 We can then generalize this by shrinking it down and taking any two faces with a position parallel to the isothermals and we look at an arbitrarily small chunk to achieve $$dJ=\kappa\,dT\frac{dA}{dS}.$$
 
-We can look at the heat flow in general and see that $dT/dS$ is just the rate of change of $T$ with position, and since the position change is perpendicular to the isotherms, this is the maximimum rate of change. The change in temperature of $\nabla T$ is opposite the direction of $\vec{h}$, so we can rewrite the above equation as $$\vec{h}=-\kappa\,\nabla T.$$
+We can look at the heat flow in general and see that $dT/dS$ is just the rate of change of $T$ with position, and since the position change is perpendicular to the isotherms, this is the maximum rate of change. The change in temperature of $\nabla T$ is opposite the direction of $\vec{h}$, so we can rewrite the above equation as $$\vec{h}=-\kappa\,\nabla T.$$
 
 This is the differential equation of heat flow in bulk materials. Writing these differential equations as vector equations is powerful because it removes us from any need for a coordinate system. 
 

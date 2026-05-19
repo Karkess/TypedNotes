@@ -7,7 +7,7 @@ tags: [1 - Set Theory and Categories]
 # 5. Universal Properties
 
 ## 5.1 Initial and final objects.
-**Definition 5.1.** Let $\mathrm{C}$ be a category. We say tat objet $I$ of $\mathrm{C}$ is *initial* in $\mathrm{C}$ if for every object $A$ of $\mathrm{C}$ exists *exactly one* morphism $I\rightarrow A$ in $\mathrm{C}$: $$\forall A\in\mathrm{Obj}(\mathrm{C}):\mathrm{Hom}_\mathrm{C}(I,A)\text{ is a singleton.}$$
+**Definition 5.1.** Let $\mathrm{C}$ be a category. We say that object $I$ of $\mathrm{C}$ is *initial* in $\mathrm{C}$ if for every object $A$ of $\mathrm{C}$ exists *exactly one* morphism $I\rightarrow A$ in $\mathrm{C}$: $$\forall A\in\mathrm{Obj}(\mathrm{C}):\mathrm{Hom}_\mathrm{C}(I,A)\text{ is a singleton.}$$
 
 ---
 A category need not have an initial or final object. For example, the category obtained by endowing $\mathbb{Z}$ with the relation $\le$. For this to have an initial object, it would need to be smaller than every other integer, and similarly a largest integer for a final object. 
@@ -26,7 +26,7 @@ We say that a construction *satisfies a universal property* when it may be viewe
 
 ## 5.3. Quotients.
 Let $\sim$ be an equivalence relation defined on set $A$. Let's parse the assertion:
-"*The quotient $A/\sim$ is universal with respect to the property of mapping $A$ to a set in such a way that equicalent elements have the same image.*"
+"*The quotient $A/\sim$ is universal with respect to the property of mapping $A$ to a set in such a way that equivalent elements have the same image.*"
 The assertion is talking about functions $$A\xrightarrow{\quad\phi\quad}Z.$$ With $Z$ any set, satisfying the property $$a'\sim a''\implies\phi(a')=\phi(a'').$$
 
 ## 5.4. Products.

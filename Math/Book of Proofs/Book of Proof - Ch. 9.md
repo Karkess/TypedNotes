@@ -5,7 +5,7 @@ title: Book of Proof - Ch. 9
 
 # Chapter 9 - Disproof
 
-Proving a statatement false is called a **disproof**. 
+Proving a statement false is called a **disproof**. 
 
 ---
 Three types of statements:  
@@ -42,7 +42,7 @@ Examples:
 ---
 # 9.1 Disproving Universal Statements: Counterexamples
 
-Since many theorems (and hence many conjectures) are universally qualified statements, it serves that we try to disprove a universally qualified tatement such as $$\forall x\in S, P(X).$$
+Since many theorems (and hence many conjectures) are universally qualified statements, it serves that we try to disprove a universally qualified statement such as $$\forall x\in S, P(X).$$
 To disprove this statement, we prove the negation $$~(\forall x\in S,P(x)) = \exists x\in S,\lnot P(x).$$
 The name for examples that disprove statements are called **counterexamples**.
 

@@ -22,7 +22,7 @@ Let's re-examine the Riemann tensor $R$ from this definition.
 
 Previously this was defined as a *vector*-valued multilinear function of three vector inputs: $\vec{w}$ is the vector that is parallel-transported around the parallelogram with edges defined by $\vec{u}$ and $\vec{w}$, and the output is the vector holonomy $\delta\vec{w}$: 
 $$\delta\vec{w}=R(u,v;w)=\left([\vec{\nabla}_\vec{u},\vec{\nabla}_\vec{v}]-\vec{\nabla}_{[\vec{u},\vec{v}]}\right)\vec{w}.$$
-To make this a real tensor, it must output a number, which means we must *contract* $\delta\vec{w}$ iwth a one form, meaning that the standard definition of the Riemann tensor is a tensor of valence $\begin{bmatrix}1\\3\end{bmatrix}$:$$R(\varphi||\vec{u},\vec{v},\vec{w})\equiv\langle\varphi,\delta\vec{w}\rangle=\varphi(\delta\vec{w}).$$
+To make this a real tensor, it must output a number, which means we must *contract* $\delta\vec{w}$ with a one form, meaning that the standard definition of the Riemann tensor is a tensor of valence $\begin{bmatrix}1\\3\end{bmatrix}$:$$R(\varphi||\vec{u},\vec{v},\vec{w})\equiv\langle\varphi,\delta\vec{w}\rangle=\varphi(\delta\vec{w}).$$
 
 ## 33.2 Example: Linear Algebra
 
@@ -34,7 +34,7 @@ We cannot meaningfully add two tensors with different valences, but for tensors 
 
 ---
 **Multiplication: The Tensor Product**
-Given two 1-forms, $\varphi$ and $\psi$, each of which acts on a single vector, it is natural to efine the *tensor product*, acting on *two* vectors, and therefore of valence $\begin{bmatrix}0\\2\end{bmatrix}$, as follows: 
+Given two 1-forms, $\varphi$ and $\psi$, each of which acts on a single vector, it is natural to define the *tensor product*, acting on *two* vectors, and therefore of valence $\begin{bmatrix}0\\2\end{bmatrix}$, as follows: 
 $$ (\varphi\otimes\psi)(\vec{v},\vec{w})\equiv\varphi(\vec{v})\psi(\vec{w}).$$
 *Note, order matters: $\varphi\otimes\psi\neq\psi\otimes\varphi.$*
 

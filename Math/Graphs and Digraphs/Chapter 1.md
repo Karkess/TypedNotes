@@ -10,17 +10,17 @@ A **graph** $G$ is a finite nonempty set $V$ of objects called **vertices** toge
 
 Vertices are sometimes referred to as **points** or **nodes**, while edges are sometimes called **lines** or **links**. 
 
-If $uv$ is an edge of $G$, then $u$ and $v$ are **adjacent vertices**. Two adjacent vertices are referred to ask **neighbors** of each other. The set of neighbors of a vertex $v$ is called the **open neighborhood** of $v$ (or simply the **neighborhood** of $v$) and is denoted by $N_G(v)$, or $N(v)$ if the graph $G$ is understood. 
+If $uv$ is an edge of $G$, then $u$ and $v$ are **adjacent vertices**. Two adjacent vertices are referred to as **neighbors** of each other. The set of neighbors of a vertex $v$ is called the **open neighborhood** of $v$ (or simply the **neighborhood** of $v$) and is denoted by $N_G(v)$, or $N(v)$ if the graph $G$ is understood. 
 
 The number of vertices is the **order** of $G$.
 The number of edges is the **size** of $G$.
 A graph of order 1 is called a **trivial graph**. 
 A graph of size 0 is called an **empty graph**. 
-A graph with allevery two distinct vertices adjacent is called a **complete graph**. 
+A graph with every two distinct vertices adjacent is called a **complete graph**. 
 
-A complete graph of order $n$ id denoted by $K_n$ has size $\binom{n}{2}=\frac{n(n-1)}{2}$.
+A complete graph of order $n$ is denoted by $K_n$ has size $\binom{n}{2}=\frac{n(n-1)}{2}$.
 
-A **path** is denoted $P_n$ and is a graph of order $n$ with size $n-1$ whose vertcies can be labeled $v_1,v_2,\dots,v_n$ and whose edges are $v_iv_{i+1}$ for $i=1,2,\dots,n-1$. 
+A **path** is denoted $P_n$ and is a graph of order $n$ with size $n-1$ whose vertices can be labeled $v_1,v_2,\dots,v_n$ and whose edges are $v_iv_{i+1}$ for $i=1,2,\dots,n-1$. 
 
 For a graph of size and order $n$ that is cyclically connected we call it a **cycle** $C_n$. 
 
@@ -35,7 +35,7 @@ An edge incident with an end-vertex is called a **pendant edge**. The largest de
 ---
 **The First Theorem of Graph Theory:**  
 **Theorem 1.4 (The First Theorem of Graph Theory)** *If $G$ is a graph of size $m$, then* $$\sum_{v\in V(G)}\mathrm{deg}\,v=2m.$$
-**Proof.** When summing the degrees of the vertices of $G$, each edge of $G$ is counted twice, once for each of its two incdient vertices.
+**Proof.** When summing the degrees of the vertices of $G$, each edge of $G$ is counted twice, once for each of its two incident vertices.
 
 ---
 **Even and Odd Vertices**
@@ -49,7 +49,7 @@ The function $\phi$ is called an **isomorphism** from $G$ to $H$. If $\phi:V(G)\
 If $G$ and $H$ are isomorphic, then we write $G\cong H$ If there is no such function $\phi$ as described above, then $G$ and $H$ are **non-isomorphic graphs** and we write $G\not\cong H$. 
 
 ---
-**Theorem 1.6** *If two graphs $G$ and $H$ are isomorphic, then they have the same order and the same size, and degrees of the vertices of $G$ are the same as teh degrees of the vertices of $H$.*
+**Theorem 1.6** *If two graphs $G$ and $H$ are isomorphic, then they have the same order and the same size, and degrees of the vertices of $G$ are the same as the degrees of the vertices of $H$.*
 
 The inverse of this is not necessarily true. Just because two graphs have the same order, same size, and same degrees of vertices, does not mean they are isomorphic. 
 
@@ -62,9 +62,9 @@ If $H$ is a subgraph of $G$ where $H\not\cong G$, then $H$ is a **proper subgrap
 
 ---
 **Induced Subgraphs**
-For a nonempty subset $S$ of $V(G)$, the **subgraph** $G[S]$ of $G$ **induced by** $S$ has $S$ as its vertex set and two vertices $u$ and $v$ are adjacent in $G[S]$ ifand only if $u$ and $v$ are adjacent in $G$. 
+For a nonempty subset $S$ of $V(G)$, the **subgraph** $G[S]$ of $G$ **induced by** $S$ has $S$ as its vertex set and two vertices $u$ and $v$ are adjacent in $G[S]$ if and only if $u$ and $v$ are adjacent in $G$. 
 
-A subgraph $H$ of a graph $G$ is called an **induced subgraph** if there is a nonempty subset $S$ of $V(G)$ such that $H=G[S]$. Thus $G[V(G)]=G$. Thus $G[V(G)]=G$. 
+A subgraph $H$ of a graph $G$ is called an **induced subgraph** if there is a nonempty subset $S$ of $V(G)$ such that $H=G[S]$. Thus $G[V(G)]=G$. 
 
 Another way to define this is that induced subgraphs have all of the edges of the original graph for the vertices chosen. 
 
@@ -124,13 +124,13 @@ The **Cartesian Product** $G$ of two graphs $G_1$ and $G_2$, commonly denoted by
 The $n$**-cube** $Q_n$ is $K_2$ if $n=1$, while for $n\ge 2$, while for $n\ge2, Q_n$ is defined recursively as the Cartesian product $Q_{n-1}\,\square\,K_2$ of $Q_{n-1}$ and $K_2$.
 
 ## 1.7 Degree Sequences
-A sequence $d_1,d_2,\dots,d_n$ of nonnegative integers is called a **degree sequence** of a graph $G$ of order $n$ if the vertices of $G$ can be laeled $v_1,v_2,\dots,v_n$ so that $\mathrm{deg}\,v_i=d_i$ for $1\le i\le n$. 
+A sequence $d_1,d_2,\dots,d_n$ of nonnegative integers is called a **degree sequence** of a graph $G$ of order $n$ if the vertices of $G$ can be labeled $v_1,v_2,\dots,v_n$ so that $\mathrm{deg}\,v_i=d_i$ for $1\le i\le n$. 
 
 A finite sequence $s$ of nonnegative integers is a **graphical sequence** if $s$ is a degree sequence of some graph. Thus, 4,3,2,2,1 is graphical. 
 
 ---
 **2-Switches**
-Let $H$ be a graph containing four distinct vertices $u,v,w,$ and $x$ such that $uv,wx\in E(H)$ and $uw,vx\not\in E(H)$. The process of deeting edges $uv$ and $wx$ from $H$ and adding $uw$ and $vx$ to $H$ is referred to as a **2-switch**. 
+Let $H$ be a graph containing four distinct vertices $u,v,w,$ and $x$ such that $uv,wx\in E(H)$ and $uw,vx\not\in E(H)$. The process of deleting edges $uv$ and $wx$ from $H$ and adding $uw$ and $vx$ to $H$ is referred to as a **2-switch**. 
 
 **Theorem 1.11** *If $G$ and $H$ are two graphs with the same degree sequence, then $H$ can be transformed into $G$ by a (possibly empty) sequence of $2$-switches.*
 
@@ -157,7 +157,7 @@ A graph of order $n\ge2$ is **nearly irregular** if exactly two vertices of $G$ 
 ## 1.8 Multigraphs
 A **multigraph** is a nonempty set of vertices, every two of which are joined by a finite number of edges. Hence a multigraph $H$ may be expressed as $H=(V,E)$, where $E$ is a multiset of 2-element subsets of $V$. 
 
-Two or more edges taht join the same pair of distinct vertices are called **parallel edges**. 
+Two or more edges that join the same pair of distinct vertices are called **parallel edges**. 
 
 An edge joining a vertex to itself is called a **loop**.
 
@@ -178,12 +178,12 @@ Total degree sum is $2\lvert E\rvert=2(58)=116$. Subtracting the $92$ gives $116
    (b) Determine whether $H_1\cong H_2$. - No
    
 ---
-11. Show that if $G$ is a nonreguar graph of order $n$ and size $rn/2$, for some integer $r$ with $1\le r\le n-2$, then $\Delta(G)-\delta(g)\ge2$. 
+11. Show that if $G$ is a nonregular graph of order $n$ and size $rn/2$, for some integer $r$ with $1\le r\le n-2$, then $\Delta(G)-\delta(g)\ge2$. 
 
 Order $n$ means $n$ vertices. Size $rn/2$ means $rn/2$ edges. Nonregular means not every vertex has the same number of degrees. $\Delta(G)$ is the vertex with the highest degree. $\delta(G)$ is the vertex with the lowest degree. 
 
 ---
-19. A bipartite graph $G$ of order $n$ has partite sets $U$ and $W$ where $\lvert U\rvert=10.$ Every vertex of $U$ has degree $6$. In $W$, there are four vertices of degree $2$ and three vertices of degree $4$. All over vertices of $G$ have degree $8$. What is $n$?
+19. A bipartite graph $G$ of order $n$ has partite sets $U$ and $W$ where $\lvert U\rvert=10.$ Every vertex of $U$ has degree $6$. In $W$, there are four vertices of degree $2$ and three vertices of degree $4$. All other vertices of $G$ have degree $8$. What is $n$?
 
 Max is $\lfloor n^2/4\rfloor$. 
 U has 10 vertices of degree 6

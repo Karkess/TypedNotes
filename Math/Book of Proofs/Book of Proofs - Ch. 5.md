@@ -160,7 +160,7 @@ a^2(b^2-2b)&=(2c)^2((2d^2)-2(2d))\\
 $$
 Therefore $a^2(b^2-2b)=2x$, where $x$ is the integer $c^2(2d^2-2d)$.  
 Consequently, $a^2(b^2-2b)$ is even.  
-Hency, by contrapositive, if $a^2(b^2-2b)$ is odd, then $a$ and $b$ are odd. 
+Hence, by contrapositive, if $a^2(b^2-2b)$ is odd, then $a$ and $b$ are odd. 
 
 ---
 **4.** Suppose $a,b,c\in\mathbb{Z}$. If $a$ does not divide $bc$, then $a$ does not divide $b$.  
@@ -248,7 +248,7 @@ By Definition 4.4 $n\mid a\rightarrow a=cn$
 Adding a remainder that is not divided results in $a=cn+r$.  
 We can see that this is equivalent to the definition of $a\equiv r\pmod{n}$  
 
-Kind of sloppy from trying to avoid just using the division algorithm. Correct path is simply invoking the divison algorithm and then just deriving $a\equiv r\pmod{n}=n\mid(r-a)$ in like one step. 
+Kind of sloppy from trying to avoid just using the division algorithm. Correct path is simply invoking the division algorithm and then just deriving $a\equiv r\pmod{n}=n\mid(r-a)$ in like one step. 
 
 *Proof*. (Direct) Let $a$ has a remainder $r$ when divided by $n$, so $a=nc+r$.  
 Subtracting $r$ from both sides we arrive at $a-r=nc$.

@@ -12,7 +12,7 @@ In this chapter we introduce the concepts of a differentiable manifold and its t
 ### 17. Holonomic constraints
 **A.** *Example*
 Let $\gamma$ be a smooth curve in the plane. If there is a very strong force field in a neighborhood of $\gamma$, directed towards the curve, then a moving point will always be close to $\gamma$. In the limit case of an infinite force field, the point must remain on the curve $\gamma$. In this case, we say that a constraint is put on the system. 
-To formulate this precisely, we introduce curvilinear coordinates $q_1$ and $q_2$ on a neighborood of $\gamma;\,q_1$ is in the direction of $\gamma$ and $q_2$ is distance from the curve.
+To formulate this precisely, we introduce curvilinear coordinates $q_1$ and $q_2$ on a neighborhood of $\gamma;\,q_1$ is in the direction of $\gamma$ and $q_2$ is distance from the curve.
 We consider a system with potential energy $$U_N=Nq^2_2+U_0(q_1,q_2),$$ depending on the parameter $n$ (which we will let tend to infinity). 
 We consider the initial conditions on $\gamma$: $$q_1(0)=q_1^0\quad\dot{q}_1(0)=\dot{q}_1^0\quad q_2(0)=0\quad\dot{q}_2(0)=0.$$ 
 Denote by $q_1=\varphi(t,N)$ the evolution of the coordinate $q_1$ under a motion with these initial conditions in the field $U_N$.
@@ -31,7 +31,7 @@ Holonomic constraints also could have been defined as the limiting case of a sys
 ---
 ### 18. Differential Manifolds
 **A.** *Definition of a differential manifold*
-A set $M$ is gien the structure of a differentiable manifold if $M$ is provided with a finite or countable collection of *charts*, so that every point is represented in at least one chart.
+A set $M$ is given the structure of a differentiable manifold if $M$ is provided with a finite or countable collection of *charts*, so that every point is represented in at least one chart.
 A chart is an open set $U$ in the euclidean coordinate space $\vec{q}=(q_1,\dots,q_n)$, together with a one-to-one mapping $\varphi$ of $U$ onto some subset of $M,\,\varphi:U\rightarrow\varphi\,U\subset M.$
 
 We assume that if points $\vec{p}$ and $\vec{p}\,'$ in two charts $U$ and $U'$ have the same image in $M$, then $\vec{p}$ and $\vec{p}\,'$ have neighborhoods $V\subset U$ and $V'\subset U'$ with the same image in $M$. In this way we get a mapping $\varphi'\,^{-1}\varphi:V\rightarrow V'$. 
@@ -74,7 +74,7 @@ The mapping $p:TM\rightarrow M$ which takes a tangent vector $\xi$ to the point 
 **E.** *Riemannian Manifolds*
 If $M$ is a manifold embedded in euclidean space, then the metric on euclidean space allows us to measure the lengths of curves, angles between vectors, volumes, et cetera. All of these quantities are expressed by means of the lengths of the tangent vectors, that is, by the positive-definite quadratic form given on every $TM_{\vec{x}}$ $$TM_\vec{x}\rightarrow\mathbb{R}\quad\vec{\xi}\rightarrow\langle\,\vec{\xi},\vec{\xi}\,\rangle.$$
 
-(For example, the kength of a curve on a manifold is expressed using this form as $(\gamma)=\int^{x_1}_{x_0}\sqrt{\langle d\vec{x},d\vec{x}\rangle}$, or, if the curve is given parametrically, $\gamma:[t_0,t_1]\rightarrow M,t\rightarrow\vec{x}(t)\in M$, then $$l(\gamma)=\int_{t_0}^{t_1}\sqrt{\langle\,\dot{\vec{x}},\dot{\vec{x}}\,\rangle}\,dt.$$ 
+(For example, the length of a curve on a manifold is expressed using this form as $(\gamma)=\int^{x_1}_{x_0}\sqrt{\langle d\vec{x},d\vec{x}\rangle}$, or, if the curve is given parametrically, $\gamma:[t_0,t_1]\rightarrow M,t\rightarrow\vec{x}(t)\in M$, then $$l(\gamma)=\int_{t_0}^{t_1}\sqrt{\langle\,\dot{\vec{x}},\dot{\vec{x}}\,\rangle}\,dt.$$ 
 
 **Definition.** A differentiable manifold with a fixed positive-definite quadratic form $\langle\,\vec{\xi},\vec{\xi}\,\rangle$ on every tangent space $TM_\vec{x}$ is called a *Riemannian manifold*. The quadratic form is called the *Riemannian metric*. 
 
@@ -89,7 +89,7 @@ Let $f:M\rightarrow N$ be a mapping of a manifold $M$ to a manifold $N$. $f$ is 
 ---
 ### 19. Lagrangian Dynamical Systems
 **A.** *Definition of a Lagrangian system*
-Let $M$ be a differentiable manifold, $TM$ its tangent bundle, and $L:TM\rightarrow\mathbb{R}$ a differntiable function. A map $\gamma:\mathbb{R}\rightarrow M$ is called the *motion in the langrangian system with configuration manifold $M$ and lagrangian function $L$ if $\gamma$ is an extral of the functional* $$\vec{\Phi}(\vec{\gamma})=\int^{t_1}_{t_0}L(\dot{\vec{\gamma}})\,dt,$$ where $\dot{\vec{\gamma}}$ is the velocity vector $\dot{\vec{\gamma}}\in TM_{\gamma(t)}$. 
+Let $M$ be a differentiable manifold, $TM$ its tangent bundle, and $L:TM\rightarrow\mathbb{R}$ a differentiable function. A map $\gamma:\mathbb{R}\rightarrow M$ is called the *motion in the langrangian system with configuration manifold $M$ and lagrangian function $L$ if $\gamma$ is an extral of the functional* $$\vec{\Phi}(\vec{\gamma})=\int^{t_1}_{t_0}L(\dot{\vec{\gamma}})\,dt,$$ where $\dot{\vec{\gamma}}$ is the velocity vector $\dot{\vec{\gamma}}\in TM_{\gamma(t)}$. 
 
 **Theorem.** *The evolution of the local coordinates $\vec{q}=(q_1,\dots,q_n)$ of a point $\vec{\gamma}(t)$ under motion in a Lagrangian system on a manifold satisfies the Lagrange equations* $$\frac{d}{dt}\frac{\partial L}{\partial\dot{\vec{q}}}=\frac{\partial L}{\partial\vec{q}},$$ *where $L(\vec{q},\dot{\vec{q}})$ is the expression for the function $L:TM\rightarrow\mathbb{R}$ in the coordinates $\vec{q}$ and $\dot{\vec{q}}$ on $TM.$*
 
@@ -105,7 +105,7 @@ Our three dimensional manifold, as it is embedded in the four dimensional one, i
 
 ---
 **C.** *Systems with holonomic constraints*
-Consider configuration manifold $M$ of a system with constraints as embedded in the $3n$-dimensional configuration space of a system of free pints. The metric on the $3n$-dimensional space is given by the quadratic form $\sum^n_{i=1}m_i\dot{\vec{r}}\,_i^2$. The embedded Riemannian manifold $M$ with potential energy $U$ coincides with the limiting case of the system with potential $U+N\vec{q}_2^2,\,N\rightarrow\infty$, which rapidly grows outside of $M$. 
+Consider configuration manifold $M$ of a system with constraints as embedded in the $3n$-dimensional configuration space of a system of free points. The metric on the $3n$-dimensional space is given by the quadratic form $\sum^n_{i=1}m_i\dot{\vec{r}}\,_i^2$. The embedded Riemannian manifold $M$ with potential energy $U$ coincides with the limiting case of the system with potential $U+N\vec{q}_2^2,\,N\rightarrow\infty$, which rapidly grows outside of $M$. 
 
 ---
 **D.** *Procedure for solving problems with constraints*
@@ -118,11 +118,11 @@ The Lagrangian function $L$ is equal to $T$. In both coordinate systems $\varphi
 Since the system has two degrees of freedom, knowing the cyclic coordinate $\varphi$ is sufficient for integrating the problem completely. 
 We can obtain a clear picture of the orbits by reasoning slightly differently. Denote by $\alpha$ the angle of the orbit with the meridian. We have $r\dot{\varphi}=|v|\sin{x}$, where |v| is the magnitude of the velocity vector.
 By law of the conservation of energy, $H=L=T$ is preserved. Therefore, $|v|$= constant, so the conservation law for $p_\varphi$ takes the form $$r\sin\alpha=\text{constant}$$("Clairaut's theorem").
-This relationship shows that the motion takes place in the region $|\sin{x}|\le1$, id est, $r\ge r_0\sin{x_0}$. Furthermore, the inclination of the orbit from the meridian increases as the radius $r$ decreases. When the radius reachest the smallest possible value, $r=r_0\sin{x_0}$, the orbit is reflected and returns to the region with larger r.
+This relationship shows that the motion takes place in the region $|\sin{x}|\le1$, id est, $r\ge r_0\sin{x_0}$. Furthermore, the inclination of the orbit from the meridian increases as the radius $r$ decreases. When the radius reaches the smallest possible value, $r=r_0\sin{x_0}$, the orbit is reflected and returns to the region with larger r.
 
 ---
 **E.** *Non-autonomous systems*
-A Lagrangian non-atonomous system differs from the autonomous system which we have been studying until now, but the additional dependence of the lagrangian function on time: $$L:TM\times\mathbb{R}\rightarrow\mathbb{R}\quad L=L(\vec{q},\dot{\vec{q}},t).$$ In particular, but the kinetic and potential energies can depend on time in a non-autonomous natural system: $$T:TM\times\mathbb{R}\rightarrow\mathbb{R}\quad U:M\times\mathbb{R}\rightarrow\mathbb{R}\quad T=T(\vec{q},\dot{\vec{q}},t)\quad U=U(\vec{q},t).$$
+A Lagrangian non-autonomous system differs from the autonomous system which we have been studying until now, but the additional dependence of the lagrangian function on time: $$L:TM\times\mathbb{R}\rightarrow\mathbb{R}\quad L=L(\vec{q},\dot{\vec{q}},t).$$ In particular, but the kinetic and potential energies can depend on time in a non-autonomous natural system: $$T:TM\times\mathbb{R}\rightarrow\mathbb{R}\quad U:M\times\mathbb{R}\rightarrow\mathbb{R}\quad T=T(\vec{q},\dot{\vec{q}},t)\quad U=U(\vec{q},t).$$
 
 A system of $n$ mass points, constrained by holonomic constraints dependent on time, is defined with the help of a time-dependent submanifold of the configuration space of a free system. Such a space is given by a mapping $$i:M\times\mathbb{R}\rightarrow\mathbb{E}^{3n}\quad i(\vec{q},t)=\vec{x},$$ which, for any fixed $t\in\mathbb{R}$, defines an embedding $M\rightarrow\mathbb{E}^{3n}$. The formula of section $D$ remains true for a non-autonomous system.
 
@@ -140,7 +140,7 @@ Let $M$ be a smooth manifold, $L:TM\rightarrow\mathbb{R}$ a smooth function on i
 
 ---
 **B.** *Proof*
-First, let $M=\mathbb{R}^n$ be coordinate space. Let $\vec{\varphi}:\mathbb{R}\rightarrow M,\vec{q}=\vec{\varphi}(t)$ to be a solution to Lagrange's equations. Since $h_*^s$ preserves $L$, the translation of asolution, $h^s\circ\vec{\varphi}:\mathbb{R}\rightarrow M$ also satisfies Lagrange's equations for any $s$.
+First, let $M=\mathbb{R}^n$ be coordinate space. Let $\vec{\varphi}:\mathbb{R}\rightarrow M,\vec{q}=\vec{\varphi}(t)$ to be a solution to Lagrange's equations. Since $h_*^s$ preserves $L$, the translation of a solution, $h^s\circ\vec{\varphi}:\mathbb{R}\rightarrow M$ also satisfies Lagrange's equations for any $s$.
 We consider the mapping $\vec{\Phi}:\mathbb{R}\times\mathbb{R}\rightarrow\mathbb{R}^n$, given by $\vec{q}=\vec{\Phi}(s,t)=h^s(\vec{\phi}(t))$.
 We will denote derivatives with respect to $t$ by dots and with respect to $s$ by primes. By hypothesis $$0=\frac{\partial(\vec{\Phi},\dot{\vec{\Phi}})}{\partial s}=\frac{\partial L}{\partial\vec{q}}\cdot\vec{\Phi}'+\frac{\partial L}{\partial\dot{\vec{q}}}\dot{\vec{\Phi}}',$$ where the partial derivatives of $L$ are taken at the point $\vec{q}=\vec{\Phi}(s,t),\,\,\dot{\vec{q}}=\dot{\vec{\Phi}}(s,t).$
 As we stated above, the mapping $\vec{\Phi}|_{s=\text{constant}}:\mathbb{R}\rightarrow\mathbb{R}^n$ for any fixed $s$ satisfies Lagrange's equation $$\frac{\partial}{\partial t}\left[\frac{\partial L}{\partial\dot{\vec{q}}}(\vec{\Phi}(s,t),\,\dot{\vec{\Phi}}(s,t))\right]=\frac{\partial L}{\partial\vec{q}}(\vec{\Phi}(s,t),\,\dot{\vec{\Phi}}(s,t)).$$

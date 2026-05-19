@@ -55,7 +55,7 @@ The complement of a subset $T$ in a set $S$ is the difference $S\setminus T$.
 
 ---
 ## 1.4 Disjoint unions, products
-Roughly speaking, the *disjoint union* of two sets $S\text{ and }T$ is a set $S\coprod T$ obtained by first producing 'copies' $S'\text{ and }T'$ of the sets $S$ and $T$, wit hthe property that $S'\cap T'=\emptyset$.  
+Roughly speaking, the *disjoint union* of two sets $S\text{ and }T$ is a set $S\coprod T$ obtained by first producing 'copies' $S'\text{ and }T'$ of the sets $S$ and $T$, with the property that $S'\cap T'=\emptyset$.  
 
 *Products* are defined as $$S\times T:=\{(s,t)\mid s\in S,t\in T\}.$$
 If $S$ and $T$ are finite sets we have the property $$\lvert S\times T\rvert=\lvert S\rvert\lvert T\rvert.$$
@@ -83,7 +83,7 @@ Take for example the building of '=', which corresponds to the 'diagonal' $$\{(a
 
 *Proof*. Suppose $\sim$ is an equivalence relation on set $S$. We have equivalence classes $\forall a\in S: [a]_\sim=\{b\in S\mid b\sim a\}$. Our set $\mathcal{P}_\sim=\{[a]_\sim\mid a\in S\}$.  
 Nonempty: By definition of reflexivity we have $(\forall a\in S)a\sim a$. This means that $a\in[a]$ and thus all sets are not empty.  
-Disjoint: Suppose for the sake of contradiction that $[a]_\sim\cap[b]_\sim\neq\emptyset$. This means that there is an element $x$ for which $x\in[a]$ and $x\in[b]$. This means that $x\sim a$ and $x\sim b$. By transitivity we have $a\sim b$ and by symmetry we have $b\sim a$, so by the definition of equivalence classes we have $[a]=[b]$, meaning all seperate equivalence classes are disjoint.  
+Disjoint: Suppose for the sake of contradiction that $[a]_\sim\cap[b]_\sim\neq\emptyset$. This means that there is an element $x$ for which $x\in[a]$ and $x\in[b]$. This means that $x\sim a$ and $x\sim b$. By transitivity we have $a\sim b$ and by symmetry we have $b\sim a$, so by the definition of equivalence classes we have $[a]=[b]$, meaning all separate equivalence classes are disjoint.  
 Union: $\forall a\in S, a\in[a]_\sim\implies\bigcup\mathcal{P}_\sim=S$.
 
 Had a lot of trouble with Disjoint and needed help there. 

@@ -35,13 +35,13 @@ Which leads us to another conservation theorem:
 ---
 Next we'll consider the work done by an external force $\vec{F}$ upon a particle going from point 1 to point 2, defined as: $$W_{12}=\int_1^2\vec{F}\cdot d\vec{s}.$$ and for constant mass (henceforth assumed):$$\int\vec{F}\cdot d\vec{s}=m\int\frac{d\vec{v}}{dt}\cdot\vec{v}dt=\frac{m}{2}\int\frac{d}{dt}(v^2)dt,$$ and therefore $$W_{12}=\frac{m}{2}(v^2_2-v^2_1).$$ 
 
-The scalar quantity $\frac{mv^2}{2}$ is called the *kinetic energy* of the particle and is denoted by $T$, so that hte work does is equivalent to the change in the kinetic energy: $$W_{12}=T_2-T_1.$$
+The scalar quantity $\frac{mv^2}{2}$ is called the *kinetic energy* of the particle and is denoted by $T$, so that the work done is equivalent to the change in the kinetic energy: $$W_{12}=T_2-T_1.$$
 
 The work around a closed path is zero, id est, $$\oint\vec{F}\cdot d\vec{s}=0.$$
 
 From the requirement that $W_{12}$ be independent of the path of integration, then $\vec{F}$ must be the gradient of some scalar function of the potential: $$\vec{F}=-\nabla V(\vec{r}),$$ where $V$ is called the *potential* or *potential energy*.
 
-For a conervative system, the work done by the forces is $$W_{12}=V_1-V_2.$$ Combining this with with our work being a change in kinetic forces, we arrive at $$T_1+V_1=T_2+V_2.$$ This is the conservation of energy of a particle.
+For a conservative system, the work done by the forces is $$W_{12}=V_1-V_2.$$ Combining this with our work being a change in kinetic forces, we arrive at $$T_1+V_1=T_2+V_2.$$ This is the conservation of energy of a particle.
 
 *The Energy Conservation Theorem for a Particle: If the forces acting on a particle are conservative, then the total mechanical energy of the particle, $T+V$, is conserved.* 
 
@@ -68,6 +68,6 @@ For angular momentum, if the internal forces between the two particles, in addit
 
 *Conservation Theorem for Total Angular Momentum: $\vec{L}$ is constant in time if the applied (external) torque is zero.*
 
-The rest of this section is just a shift of center of mass potential showing the additive nature of vector potentials. Standard stuff. Ends with showing that in a rigid body that internal fores do no work. 
+The rest of this section is just a shift of center of mass potential showing the additive nature of vector potentials. Standard stuff. Ends with showing that in a rigid body that internal forces do no work. 
 
 ## 1.3 Constraints

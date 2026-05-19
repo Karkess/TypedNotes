@@ -56,7 +56,7 @@ This means that $a\in\mathbb{Z}$ and $18\mid x$.
 By definition of divisibility, there is an integer $c$ for which $a=18c$.  
 Consequently, $a=6(3c)$, and from this we deduce that $6\mid a$.  
 Therefore $a$ is one of the integers that $6$ divides, so $a\in\{x\in\mathbb{Z}:6\mid x\}$.  
-We've shown that $a\in\{x\in\mathbb{Z}:18\mid x\}$ imples that $a\in\{x\in\mathbb{Z}:6\mid x\}$, so it follows that $\{x\in\mathbb{Z}:18\mid x\}\subseteq\{x\in\mathbb{Z}:6\mid x\}$. 
+We've shown that $a\in\{x\in\mathbb{Z}:18\mid x\}$ implies that $a\in\{x\in\mathbb{Z}:6\mid x\}$, so it follows that $\{x\in\mathbb{Z}:18\mid x\}\subseteq\{x\in\mathbb{Z}:6\mid x\}$. 
 
 ---
 # 8.3 How to Prove A=B
@@ -103,7 +103,7 @@ Since $A\subseteq B$, we have $x\in B$.
 Hence $x\in B$ and $x\notin C$, so $x\in B\setminus C$.  
 Therefore, every element of $A\setminus C$ is an element of $B\setminus C$. $A\setminus C\subseteq B\setminus C. \blacksquare$  
 
-I am not great at these set proofs. This took me three attempts. Getting  it a bit better now though.  
+I am not great at these set proofs. This took me three attempts. Getting it a bit better now though.  
 
 ---
 **8.** If $A,B$, and $C$ are sets, then $A\cup(B\cap C)=(A\cup B)\cap(A\cup C)$.  

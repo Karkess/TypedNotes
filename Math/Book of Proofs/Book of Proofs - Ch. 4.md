@@ -36,7 +36,7 @@ $$\text{The harmonic series } 1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+
 ---
 A **Proposition** is a statement that is true but is not as significant.
 
-A **Lemma** is a theorem whose main purpose is to help orve another theorem.
+A **Lemma** is a theorem whose main purpose is to help prove another theorem.
 
 A **Corollary** is a result that is an immediate consequence of a theorem or proposition. 
 
@@ -82,10 +82,10 @@ Therefore $Q$. $\Box$
 ---
 
 **Proposition** If $x$ is odd, then $x^2$ is odd.  
-*Proof*. Suppose $x$ is odd. Then $x=2a+1$ for some $a\in\mathbb{Z}$, by definition of an odd number. Thus $x^2=\left(2a+1\right)^2=4a^2+4a+1=2\left(2a^2+2a\right)+1$ so $x^2=2b+1\text{ where } b=2a^2+2a\in\mathbb{Z}$. Therefore $x^2$ is oddm by definition of an odd number.
+*Proof*. Suppose $x$ is odd. Then $x=2a+1$ for some $a\in\mathbb{Z}$, by definition of an odd number. Thus $x^2=\left(2a+1\right)^2=4a^2+4a+1=2\left(2a^2+2a\right)+1$ so $x^2=2b+1\text{ where } b=2a^2+2a\in\mathbb{Z}$. Therefore $x^2$ is odd, by definition of an odd number.
 
 ---
-*Strategy*: Start with teh first and last statement of the proof, and then work your way inward solving sometimes alternating from either side.
+*Strategy*: Start with the first and last statement of the proof, and then work your way inward solving sometimes alternating from either side.
 
 ---
 **Proposition** Let $a,b,\text{ and } c$ be integers.  
@@ -107,7 +107,7 @@ Consequently, $x^2-6x+5$ is odd, by definition of an odd number.
 ---
 
 **Proposition** If $a,b,c\in\mathbb{N}$, then $\mathrm{lcm}(ca,cb)=c\cdot\mathrm{lcm}(a,b)$  
-*Proof*. Assume $a,b,c\in\mathbb{N}$. Let $\mathrm{lcm}(ca,ab)\text{ and }n=c\cdot\mathrm{lcm}(a,b)$. We will show $m=n$. By definition, $\mathrm{lcm}(a,b)$ is a positive multiple of both $a\text{ and }b$, so $\mathrm{lcm}(a,b)=ax=by$ for some $x,y,\in\mathbb{N}$. From this wee see that $n=c\cdot\mathrm{lcm}(a,b)=cax=cby$ is a positive multiple of both $ca$ and $cb$. Thus $m\le n$  
+*Proof*. Assume $a,b,c\in\mathbb{N}$. Let $\mathrm{lcm}(ca,ab)\text{ and }n=c\cdot\mathrm{lcm}(a,b)$. We will show $m=n$. By definition, $\mathrm{lcm}(a,b)$ is a positive multiple of both $a\text{ and }b$, so $\mathrm{lcm}(a,b)=ax=by$ for some $x,y,\in\mathbb{N}$. From this we see that $n=c\cdot\mathrm{lcm}(a,b)=cax=cby$ is a positive multiple of both $ca$ and $cb$. Thus $m\le n$  
     On the other hand, as $m=\mathrm{lcm}(ca,cb)$ is a multiple of both $ca\text{ and }cb$, we have $m=cax=cby$ for some $x,y,\in\mathbb{Z}$. Then $\frac{1}{c}m=ax=by$ is a multiple of both $a$ and $b$. Therefore, $\mathrm{lcm}(a,b)\le\frac{1}{c}m$, so $c\cdot\mathrm{lcm}(a,b)\le m\text{, that is, }n\le m$.  
     We've shown that $m\le n\text{ and }n\le m\text{, so }m=n$. The proof is complete. $\Box$
     
@@ -116,7 +116,7 @@ Consequently, $x^2-6x+5$ is odd, by definition of an odd number.
 *Proof*. Suppose $x\le y$. Subtracting $y$ from both sides gives $x-y\le 0$.  
 This can be written as $\sqrt{x}^2-\sqrt{y}^2\le0$  
 Factor this as a difference of two squares to get $(\sqrt{x}-\sqrt{y})(\sqrt{x}+\sqrt{y})\le0.$  
-Dviidng both sides by the positive number $\sqrt{x}+\sqrt{y}\text{ produces }\sqrt{x}-\sqrt{y}\le0.$  
+Dividing both sides by the positive number $\sqrt{x}+\sqrt{y}\text{ produces }\sqrt{x}-\sqrt{y}\le0.$  
 Adding $\sqrt{y}$ to both sides gives $\sqrt{x}\le\sqrt{y}$.
 
 ---
@@ -125,14 +125,14 @@ Adding $\sqrt{y}$ to both sides gives $\sqrt{x}\le\sqrt{y}$.
 Observe that $0\le(x-y)^2\text{, that is, }0\le x^2-2xy+y^2$  
 Adding $4xy$ to both sides gives $4xy\le x^2+2xy+y^2$.  
 Factoring yields $4xy\le(x+y)^2$.  
-Previously we proves that such an inequality still holds that after taking the square root of both sides; doing so produces $2\sqrt{xy}\le x+y. \Box$
+Previously we proved that such an inequality still holds that after taking the square root of both sides; doing so produces $2\sqrt{xy}\le x+y. \Box$
 
 ---
 # 4.4 Using Cases
 
 **Proposition** If $n\in\mathbb{N}\text{, then }1+(-1)^n(2n-1)\text{ is a multiple of }4.$  
 *Proof*. Suppose $n\in\mathbb{N}$.  
-Then $n$ is either even or odd. Let's consider these two cases seperately.  
+Then $n$ is either even or odd. Let's consider these two cases separately.  
 
 **Case 1.** Suppose $n$ is even. Then $n=2k$ for some $k\in\mathbb{Z}\text{ and }(-1)^n=1.$  
 Thus $1+(-1)^n(2n-1)=1+(1)(2\cdot2k-1)=4k$, which is a multiple of 4.  
@@ -164,7 +164,7 @@ The above cases show us that no matter whether a multiple of $k=4a$ of 4 is zero
 ---
 # 4.5 Treating Similar Cases
 
-**Proposition** If two integers have opposite parity, then heir sum is odd.  
+**Proposition** If two integers have opposite parity, then their sum is odd.  
 
 *Proof*. Suppose $m$ and $n$ are two integers with opposite parity.  
 We need to show that $m+n$ is odd. This is done in two cases, as follows.  

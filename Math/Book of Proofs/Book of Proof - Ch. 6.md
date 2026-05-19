@@ -18,7 +18,7 @@ Because $a^2$ is even, it follows that $a$ is even, so $a=2c$ for some integer $
 Now plug $a=2c$ back into the boxed equation to get $(2c)^2-4b=2$, so $4c^2-4b=2$. Dividing by $2$, we get $2c^2-2b=1$.  
 Therefore, $1=2(c^2-b)$, and because $c^2-b\in\mathbb{Z}$, it follows that $1$ is even.  
 We know $1$ is **not** even, so something must be wrong.  
-As the logic after the first like in the proof is correct, it must be the first line that was incorrect. Thus, the proposition is true.  
+As the logic after the first line in the proof is correct, it must be the first line that was incorrect. Thus, the proposition is true.  
 
 ---
 This proof logically follows $C\land\lnot C$, which is called a contradiction because there is no way for it to ever be true.
@@ -42,7 +42,7 @@ Also, $x$ is **irrational** if it is not rational, this is if $x\neq\frac{a}{b}$
 *Proof*. Suppose for the sake of contradiction it is not true that $\sqrt{2}$ is irrational. Then $\sqrt{2}$ is rational, so there are integers for $a$ and $b$ for which $$\sqrt{2}=\frac{a}{b}.$$  
 Let this fraction be fully reduced; in particular, this means that $a$ and $b$ and not both even.  
 Squaring both sides of the equations gives $2=\frac{a^2}{b^2}$ and therefore $$a^2=2b^2.$$  
-From this it follows that $a^2$ is even, and earlier we proved that $a^2$ being even means $a$ is even. Thus, as we know $a$ and $b$ aren ot both even, it follows that $b$ **is odd**.  
+From this it follows that $a^2$ is even, and earlier we proved that $a^2$ being even means $a$ is even. Thus, as we know $a$ and $b$ are not both even, it follows that $b$ **is odd**.  
 Now, since $a$ is even we know that $a$ can be represented by integer $2c$. Plugging this in gives $(2c)^2=2b^2$ and thus $b^2=2c^2$ which means $b^2$ is even.  
 Thus we have a **contradiction** because these numbers both appear to be even.  
 
@@ -51,10 +51,10 @@ Thus we have a **contradiction** because these numbers both appear to be even.
 
 *Proof*. For the sake of contradiction, suppose there are only finitely many prime numbers.  
 We list all prime numbers as $p_1,p_2,p_3,\dots,p_n$  
-Thus, $p_n$ is the $n$th and largeset prime number.  
+Thus, $p_n$ is the $n$th and largest prime number.  
 Now consider the number $a=(p_1p_2p_3\dots p_n)+1$, that is, a product of all prime numbers plus 1.  
 Now $a$ like any natural number greater than one has at least one prime divisor, and that means $p_k\mid a$ for at least one of our $n$ prime numbers $p_k$.  
-Thus there is an integer $c$ for which $a=cp_k$ which is to say $$(p_1p_2p_3\dots p_{k-1}p_kp_{k+1}\dots p_n)+\frac{1}{p_k}=c,$$ so $$\frac{1}{p_k}=c-(p_1p_2p_3\dots p_{k-1}p_{k+1}\dots p_n).$$ The expression on teh right is an integer, while the expression on the left is not an integer. This is a contradiction. $\blacksquare$
+Thus there is an integer $c$ for which $a=cp_k$ which is to say $$(p_1p_2p_3\dots p_{k-1}p_kp_{k+1}\dots p_n)+\frac{1}{p_k}=c,$$ so $$\frac{1}{p_k}=c-(p_1p_2p_3\dots p_{k-1}p_{k+1}\dots p_n).$$ The expression on the right is an integer, while the expression on the left is not an integer. This is a contradiction. $\blacksquare$
 
 ---
 **Proposition** For every real number $x\in[0,\pi/2]$, we have $\sin{x}+\cos{x}\ge1$  
@@ -92,7 +92,7 @@ Thus $a^2$ is even and $a^2$ is not even, a contradiction. $\blacksquare$
 By DeMorgan's law, we have $a\mid b\text{ and }a\mid(b+1)$.  
 The definition of divisibility says there are $c,d\in\mathbb{Z}$ with $b=ac$ and $b+1=ad$.  
 Subtracting one equation from the other gives $ad-ac=1\text{, so }a(d-c)=1$.  
-Since $a$ is positive, $d-c$ is also positive (other wise $a(d-c)$ would be negative).  
+Since $a$ is positive, $d-c$ is also positive (otherwise $a(d-c)$ would be negative).  
 Then $d-c$ is a positive integer and $a(d-c)=1\text{, so }a=1/(d-c)<2$.  
 Thus we have $a\ge2$ and $a<2$, a contradiction $\blacksquare$. 
 
@@ -104,8 +104,8 @@ Thus we have $a\ge2$ and $a<2$, a contradiction $\blacksquare$.
 *Proof*. This proposition can be reworded as follows: If *r* is a non-zero rational number, then *r* is a product of two irrational numbers. In what follows, we prove this with a direct proof.  
     Suppose *r* is a non-zero rational number. Then $r=\frac{a}{b}$ for all integers $a$ and $b$.  
 Also, $r$ can be written as a product of two numbers as follows: $$r=\sqrt{2}\cdot\frac{r}{\sqrt{2}}.$$  
-We know $\sqrt{2}$ is irrational, so to complete the proof we must show that $\frac{r}{\sqrt{2}}$ is also irrational. This means $$\frac{r}{sqrt{2}}=\frac{c}{d}$$ for integers $c$ and $d$, so $$\sqrt{2}=r\frac{d}{c}.$$ But we know that $r=\frac{a}{b}$, which combines with teh above equation to give $$\sqrt{2}=r\frac{d}{c}=\frac{a}{b}\frac{d}{c}=\frac{ad}{bc}.$$
-This means $\sqrt{2}$ is rational, which is a contrdiction because we know it is irrational.   Therefore $\frac{r}{\sqrt{2}}$ is irrational.  
+We know $\sqrt{2}$ is irrational, so to complete the proof we must show that $\frac{r}{\sqrt{2}}$ is also irrational. This means $$\frac{r}{sqrt{2}}=\frac{c}{d}$$ for integers $c$ and $d$, so $$\sqrt{2}=r\frac{d}{c}.$$ But we know that $r=\frac{a}{b}$, which combines with the above equation to give $$\sqrt{2}=r\frac{d}{c}=\frac{a}{b}\frac{d}{c}=\frac{ad}{bc}.$$
+This means $\sqrt{2}$ is rational, which is a contradiction because we know it is irrational.   Therefore $\frac{r}{\sqrt{2}}$ is irrational.  
 Hence, $r=\sqrt{2}\cdot\frac{r}{\sqrt{2}}$ is a product of two irrational numbers. $\blacksquare$
 
 ---

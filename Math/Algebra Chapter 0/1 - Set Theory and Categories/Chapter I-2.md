@@ -17,7 +17,7 @@ The collection of all functions from set $A$ to set $B$ is itself a set, denoted
 
 The inclusion of any subset $S$ of a set $A$ determines a function $S\rightarrow A$, simply by send every element $s$ of $S$ to 'itself' in $A$, denoted $$f(S):=\{b\in B\mid(\exists a\in S)b=f(a)\}.$$ That is, f(S) is the subset of $b$ consisting of all elements that are images of elements of $S$ by the function $f$.  
 The largest such subset, f(A), is called the *image of* $f$, denoted '$\mathrm{im}\,f$'.  
-Also, $f\mid_S$ denotes the 'rrestriction' of $f$ to the subset $S$: This is the function $S\rightarrow B$ defined by $$\forall s\in S):f\mid_S(s)=f(s).$$
+Also, $f\mid_S$ denotes the 'restriction' of $f$ to the subset $S$: This is the function $S\rightarrow B$ defined by $$\forall s\in S):f\mid_S(s)=f(s).$$
 
 ## 2.2. Examples: Multisets, indexed sets.
 
@@ -43,13 +43,13 @@ Additionally, if a function has an inverse, it has a bijection. More precisely:
 
 **Proposition 2.1.** *Assume $A\neq\emptyset$, and let $f:A\rightarrow B$ be a function. Then  
 (1) $f$ has a left inverse if and only if it is injective.  
-(2) $f$ has a right inverse if and only if it is surjecive.  
+(2) $f$ has a right inverse if and only if it is surjective.  
 
 ---
 **Proof** For (1).  
-$(\implies)$ If $f:A\rightarrow B$ has a left inverse, then there exists a $g: B\rightarrow A$ such that $g\circ f=\mathrm{id}_A$. Now assume that $a'\neq a''$ are arbitary different elements in $A$, then $$g(f(a'))=\mathrm{id}_A(a')=a'\neq a''=\mathrm{id}_A(a'')=g(f(a''));$$ that is, $g$ sends $f(a')$ and $f(a'')$ to different elements. This forces $f(a')$ and $f(a'')$ to be different, showing that $f$ is injective. 
+$(\implies)$ If $f:A\rightarrow B$ has a left inverse, then there exists a $g: B\rightarrow A$ such that $g\circ f=\mathrm{id}_A$. Now assume that $a'\neq a''$ are arbitrary different elements in $A$, then $$g(f(a'))=\mathrm{id}_A(a')=a'\neq a''=\mathrm{id}_A(a'')=g(f(a''));$$ that is, $g$ sends $f(a')$ and $f(a'')$ to different elements. This forces $f(a')$ and $f(a'')$ to be different, showing that $f$ is injective. 
 
-$(\impliedby)$ Now assume that $f:A\rightarrow B$ is injetive. In order to construct a function $g:B\rightarrow A$, we have to assign a unique value $g(b)\in A$ for each element $b\in B$. For this, choose any fixed element $s\in A$ (which we can do because $A\neq\emptyset$), then set 
+$(\impliedby)$ Now assume that $f:A\rightarrow B$ is injective. In order to construct a function $g:B\rightarrow A$, we have to assign a unique value $g(b)\in A$ for each element $b\in B$. For this, choose any fixed element $s\in A$ (which we can do because $A\neq\emptyset$), then set 
 $$
 g(b) :=
 \begin{cases}
@@ -64,10 +64,10 @@ The given assignment defined a function, precisely because $f$ is injective: ind
 Finally, the function $g:B\rightarrow A$ is a left-inverse of $f$. Indeed, if $a\in A$, then $b=f(a)$ is of the first type, so it is sent back to $a$ by $g$; that is, $g\circ f(a)=a=\mathrm{id}_A(a)$ for all $a\in A$, as needed.  
 
 --- 
-**Corallary 2.2** A *function* $f:A\rightarrow B$ is a *bijection if and only if it has a (two sided) inverse.*
+**Corollary 2.2** A *function* $f:A\rightarrow B$ is a *bijection if and only if it has a (two sided) inverse.*
 
 ---
-The standard notation for *the* inverse of a bijection $f$ is $f^-1$, but can also be used in a slightly differnet context. Here, $$f^-1(T)=\{a\in A\mid f(a)\in T\}.$$
+The standard notation for *the* inverse of a bijection $f$ is $f^-1$, but can also be used in a slightly different context. Here, $$f^-1(T)=\{a\in A\mid f(a)\in T\}.$$
 
 ---
 ## 2.6. Monomorphisms and epimorphisms.
@@ -76,9 +76,9 @@ A function is a *monomorphism* (or *monic*) if the following holds:$$\text{for a
 ---
 **Proposition 2.3.** A function is *injective* if and only if it is a *monomorphism*. 
 
-**Proof**. ($\implies$) By Peropisiton 2.1, if a function $f:A\rightarrow B$ is injective, then it has a left-inverse $g:B\rightarrow A$. Now assume that $\alpha',\alpha''$ are arbitrary functions from another set $Z$ to $A$ and that $$f\circ\alpha'=f\circ\alpha'';$$ composeon the left by $g$, and use the associativity of composition: $$(g\circ f)\circ\alpha'=g\circ(f\circ\alpha')=g\circ(f\circ\alpha'')=(g\circ f)\circ\alpha''$$ since $g$ is the left inverse of $f$, this says $$\mathrm{id}_A\circ\alpha'=\mathrm {id}_A\circ\alpha''$$ and therefore $$\alpha'=\alpha''.$$ as needed to conclude that $f$ is a monomorphism.  
+**Proof**. ($\implies$) By Proposition 2.1, if a function $f:A\rightarrow B$ is injective, then it has a left-inverse $g:B\rightarrow A$. Now assume that $\alpha',\alpha''$ are arbitrary functions from another set $Z$ to $A$ and that $$f\circ\alpha'=f\circ\alpha'';$$ compose on the left by $g$, and use the associativity of composition: $$(g\circ f)\circ\alpha'=g\circ(f\circ\alpha')=g\circ(f\circ\alpha'')=(g\circ f)\circ\alpha''$$ since $g$ is the left inverse of $f$, this says $$\mathrm{id}_A\circ\alpha'=\mathrm {id}_A\circ\alpha''$$ and therefore $$\alpha'=\alpha''.$$ as needed to conclude that $f$ is a monomorphism.  
 
-($\impliedby$) Now assume that $f$ is a monomorphism. This says something about arbitrary sets $Z$ and arbitrary functions $Z\rightarrow A$; we are going to use a microscopic portion of this information, choosing $Z$ to be any singleton $\{p\}$. Then assigning functions $\alpha',\alpha'':Z\rightarrow A$ amounts to choosing which elements $a'=\alpha'(p),a''=\alpha''(p)$ we should send the singe element $p$ of $Z$. For this particular choice of $Z$, the property defining monomorphisms, $f\circ\alpha'=f\circ\alpha''\implies\alpha'=\alpha''$, becomes $$f\circ\alpha'(p)=f\circ\alpha''(p)\implies\alpha'=\alpha'',$$that is, $$f(a')=f(a'')\implies\alpha'=\alpha''.$$
+($\impliedby$) Now assume that $f$ is a monomorphism. This says something about arbitrary sets $Z$ and arbitrary functions $Z\rightarrow A$; we are going to use a microscopic portion of this information, choosing $Z$ to be any singleton $\{p\}$. Then assigning functions $\alpha',\alpha'':Z\rightarrow A$ amounts to choosing which elements $a'=\alpha'(p),a''=\alpha''(p)$ we should send the single element $p$ of $Z$. For this particular choice of $Z$, the property defining monomorphisms, $f\circ\alpha'=f\circ\alpha''\implies\alpha'=\alpha''$, becomes $$f\circ\alpha'(p)=f\circ\alpha''(p)\implies\alpha'=\alpha'',$$that is, $$f(a')=f(a'')\implies\alpha'=\alpha''.$$
 Now two functions from $Z=\{p\}$ to $A$ are equal if and only if they send $p$ to the same element, so this says $$f(a')=f(a'')\implies a'=a''.$$ This has to be all true for all $\alpha',\alpha''$, that is, for all choices of distinct $a',a''$ in $A$. In other words, $f$ has to be injective, as was to be shown. $\blacksquare$
 
 ---
@@ -95,9 +95,9 @@ The similar definition to *monomorphism* and proof for surjective functions is l
 If $\sim$ is an equivalence relation on set $A$, then there is a (clearly surjective) canonical projection$$A\twoheadrightarrow A/\sim$$ obtained by sending every $a\in A$ to its equivalence class $[a]_\sim$ .
 
 ## 2.8 Canonical decomposition
-The signficance of injective and surjective maps is that they are the structures that any functions can be constructed from.  
+The significance of injective and surjective maps is that they are the structures that any functions can be constructed from.  
 
-Observe that if every function $f:A\rightarrow B$ determines and equivalence relation $\sim$ on $A$: for all $a',a''\in A$, $$a'\sim a''\iff f(a')=f(a'').$$
+Observe that if every function $f:A\rightarrow B$ determines an equivalence relation $\sim$ on $A$: for all $a',a''\in A$, $$a'\sim a''\iff f(a')=f(a'').$$
 
 ---
 **Theorem 2.7.** *Let $f:A\rightarrow B$ be any function, and define $\sim$ as above. Then $f$ decomposes as follows:* $$A\xrightarrow{f} B$$ $$A\twoheadrightarrow(A/\sim)\xrightarrow{\sim}_f\mathrm{im}f\hookrightarrow B$$ *where the first function is the canonical projection $A\rightarrow A/\sim$ (as in Example 2.6), and third function is the inclusion $\mathrm{im}\,f\subseteq B$, and the bijection $\tilde{f}$ in the middle is defined by* $$\tilde{f}([a]_\sim):=f(a)$$ *for all* $a\in A$.  
@@ -111,10 +111,10 @@ To verify we need to prove
 
 To verify the second item, that is, that $\tilde{f}:A/\sim\rightarrow\mathrm{im}\,f$ is a bijection, we check explicitly that $\tilde{f}$ is injective and surjective.  
 *Injective*: If $\tilde{f}([a']_\sim)=\tilde{f}([a'']_\sim)$, then $f(a')=f(a'')$ by definition of $\tilde{f}$; hence $a'\sim a''$ by the definition of $\sim$, and then $[a']_\sim=[a'']_\sim$ . Therefore $$\tilde{f}([a']_\sim)=\tilde{f}([a'']_\sim)\implies[a']_\sim=[a'']_\sim$$ proving injectivity. 
-*Surjective*: Given any $b\in\mathrm{im}\,f$, there is an element $a\in A$ such that $f(a)=b$, Then $$\tilde{f}([a]_\sim)=f(a)=b$$ by definition of $\tilde{f}$. Since $b$ was arbitrary in $\mathrm{im}\,f$, this hows that $\tilde{f}$ is surjective, as needed. $\blacksquare$
+*Surjective*: Given any $b\in\mathrm{im}\,f$, there is an element $a\in A$ such that $f(a)=b$, Then $$\tilde{f}([a]_\sim)=f(a)=b$$ by definition of $\tilde{f}$. Since $b$ was arbitrary in $\mathrm{im}\,f$, this shows that $\tilde{f}$ is surjective, as needed. $\blacksquare$
 
 ## 2.9. Clarification
-When considering disjoint unionts $A\coprod B$ there are many choices for acceptable candidates for what could constitute this set, so instead we take it as a not well defined set and say that it is well-defined up to an isomorphism of $A,B$. 
+When considering disjoint unions $A\coprod B$ there are many choices for acceptable candidates for what could constitute this set, so instead we take it as a not well defined set and say that it is well-defined up to an isomorphism of $A,B$. 
 
 ## Exercises
 Do: 2.1 2.2 2.4 2.5 2.9 2.10 2.11

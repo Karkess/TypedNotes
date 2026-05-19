@@ -28,7 +28,7 @@ Gravitational work can be described as the 1-form $$\omega(v)\equiv\text{ work d
 
 This is why we dot the differential when integrating for work $\vec{F}\cdot\,d\vec{r}$. Here, $\vec{F}$ would be the 1-form. 
 
-We can represent this in tensorial notation and think of these as vectors and covectors, $\int_\gamma F_i\,dr^i$, giving us this path dependence. This notation makies it a bit clearer that 1-forms can be interpreted or represented by simple tensors. 
+We can represent this in tensorial notation and think of these as vectors and covectors, $\int_\gamma F_i\,dr^i$, giving us this path dependence. This notation makes it a bit clearer that 1-forms can be interpreted or represented by simple tensors. 
 
 ---
 *Visualizing the Gravitational Work 1-form*
@@ -58,7 +58,7 @@ Let the general 1-form $\varphi$ act on the general vector $\vec{v}$: $$\begin{a
 We now define the components of $\varphi_j$ of $\varphi$: $$\varphi_j\equiv\varphi(\hat{e}_j)$$
 
 ## 32.6 The Gradient as a 1-Form: df
-*Review of the Gradiant as a vector: $\nabla f$*
+*Review of the Gradient as a vector: $\nabla f$*
 Recall that the *Gradient* of a function $f$ is defined as $$\nabla f\equiv\begin{bmatrix}\partial_xf\\\partial_yf\end{bmatrix}.$$
 The significance of the vector is that:
 *$\nabla f$ points in the direction of the most rapid increase of $f$, and its magnitude $|\nabla f|$ equals the maximum rate of increase of $f$ with distance as we move in that direction.*
@@ -82,7 +82,7 @@ We shall look at their effect on a general vector: $\vec{v}=\begin{bmatrix}v^1\\
 
 ---
 *The 1-Form Interpretation of* $df=(\partial_xf)dx+(\partial_yf)dy$. 
-Taking the above $\varphi=\mathbf{d}f$  we have decomposed the gradient 1-form $\mathbf{D}f of a general function itno its Cartesian basis 1-form components, as follows: $$\mathbf{d}f=[(\mathbf{d}f)\hat{e}_j]\mathbf{d}x^j=[\partial_{x^j}f]\mathbf{d}x^j.$$ 
+Taking the above $\varphi=\mathbf{d}f$  we have decomposed the gradient 1-form $\mathbf{D}f of a general function into its Cartesian basis 1-form components, as follows: $$\mathbf{d}f=[(\mathbf{d}f)\hat{e}_j]\mathbf{d}x^j=[\partial_{x^j}f]\mathbf{d}x^j.$$ 
 
 ---
 ## 32.7 Adding 1-Forms Geometrically

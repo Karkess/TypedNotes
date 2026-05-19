@@ -59,7 +59,7 @@ Suppose $V$ is finite-dimensional. Then each operator on $V$ has at most $\mathr
 
 **5.14 Definition $T|_U$ and $T/U$**
 Suppose $T\in\mathcal{L}(V)$ and $U$ is a subspace of $V$ invariant under $T$.
-- The *restriction operator* $T|_U\in\mathcal{L}(U)$ us defined by $$T|_U(u)=Tu$$ for all $u\in U.$
+- The *restriction operator* $T|_U\in\mathcal{L}(U)$ is defined by $$T|_U(u)=Tu$$ for all $u\in U.$
 - The *quotient operator* $T/U\in\mathcal{L}(V/U)$ is defined by $$(T/U)(v+U)=Tv+U$$ for $v\in V$. 
 
 ## 5.B Eigenvalues and Upper-Triangular Matrices
@@ -91,7 +91,7 @@ Every operator on a finite-dimensional, nonzero, complex vector space has an eig
 ---
 ### Upper-Triangular Matrices
 **5.22 Definition** *matrix of an operator* $\mathcal{M}(T)$
-Suppose $T\in\mathcal{L}(V)$, and $v_1,\dots,v_n$ is a basis of $V$. The *matrix of* $T$ with respect to this basis is the $n$-by-$n$ matrix $$\mathcal{M}(T)=\begin{pmatrix}A_{1,1}&\cdots&A_{1,n}\\\vdots&&\vdots\\A_{n,1}&\cdots&A_{n,n}\end{pmatrix}$$whose entries $A_{j,k}$ are defined by $$T_{v_k}=A_{1,k}v_1+\cdots+A_{n,k}v_n.$$ OF the basis is not clear from the context, then the notation $\mathcal{M}(T,(v_1,\dots,v_n))$ is used. 
+Suppose $T\in\mathcal{L}(V)$, and $v_1,\dots,v_n$ is a basis of $V$. The *matrix of* $T$ with respect to this basis is the $n$-by-$n$ matrix $$\mathcal{M}(T)=\begin{pmatrix}A_{1,1}&\cdots&A_{1,n}\\\vdots&&\vdots\\A_{n,1}&\cdots&A_{n,n}\end{pmatrix}$$whose entries $A_{j,k}$ are defined by $$T_{v_k}=A_{1,k}v_1+\cdots+A_{n,k}v_n.$$ If the basis is not clear from the context, then the notation $\mathcal{M}(T,(v_1,\dots,v_n))$ is used. 
 
 ---
 *Note: The matrices of operators are square arrays*
@@ -126,7 +126,7 @@ Suppose $T\in\mathcal{L}(V)$ has an upper-triangular matrix with respect to some
 A **diagonal matrix** is a square matrix that is 0 everywhere except possibly along the diagonal. 
 
 **5.36 Definition** *eigenspace* $E(\lambda,T)$
-Suppose $T\in\mathcal{L}(V)$ and $\lambda\in\mathbb{F}$. The *eigenspace* of $T$ corresponding to $\lambda$, denoted $E(\lambda,T)$, is defined by $$E(\lambda,T)=\mathrm{null}(T-\lambda I).$$ In other words, $E(\lambda,T)$ is teh et of all eigenvectors of $T$ corresponding to $\lambda$, along with the $\vec{0}$ vector.
+Suppose $T\in\mathcal{L}(V)$ and $\lambda\in\mathbb{F}$. The *eigenspace* of $T$ corresponding to $\lambda$, denoted $E(\lambda,T)$, is defined by $$E(\lambda,T)=\mathrm{null}(T-\lambda I).$$ In other words, $E(\lambda,T)$ is the set of all eigenvectors of $T$ corresponding to $\lambda$, along with the $\vec{0}$ vector.
 
 **5.38 Sum of eigenspaces is a direct sum**
 Suppose $V$ is finite-dimensional and $T\in\mathcal{L}(V)$. Suppose also that $\lambda_1,\dots,\lambda_m$ are distinct eigenvalues of $T$, then, $$E(\lambda_1,T)+\cdots+E(\lambda_m,T)$$ is a direct sum, furthermore, $$\mathrm{dim}\,E(\lambda_1,T)+\cdots+\mathrm{dim}\,E(\lambda_m,T)\le\mathrm{dim}\,V.$$

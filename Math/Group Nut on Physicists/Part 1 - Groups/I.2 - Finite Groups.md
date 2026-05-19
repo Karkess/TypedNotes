@@ -77,7 +77,7 @@ For an element $g$ consider the elements $\{gh_1,gh_2,\dots\}$ which we will den
 
 $gH$ is a "*left coset*", which close under multiplication. 
 
-We can mutiply these groups together by multiplying each group element in the set $g_aH$
+We can multiply these groups together by multiplying each group element in the set $g_aH$
 
 The left cosets form a group. 
 

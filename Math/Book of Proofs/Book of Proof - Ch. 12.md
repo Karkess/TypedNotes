@@ -9,7 +9,7 @@ title: Book of Proof - Ch. 12
 
 ---
 
-**Definition 12.2** For a function $f:A\rightarrow B$, the set $A$ is called the **domain** of $f$. (Think of the domain as teh set of possible "input values" for $f$.) The set B is called the **codomain** of $f$. The **range** of $f$ is the set $\{f(a):a\in A\}={b:(a,b)\in f\}$. (Think of range as teh set of all possible "output values" for $f$. Think of the codomain as a sort of "target" for the outputs.)  
+**Definition 12.2** For a function $f:A\rightarrow B$, the set $A$ is called the **domain** of $f$. (Think of the domain as the set of possible "input values" for $f$.) The set B is called the **codomain** of $f$. The **range** of $f$ is the set $\{f(a):a\in A\}={b:(a,b)\in f\}$. (Think of range as the set of all possible "output values" for $f$. Think of the codomain as a sort of "target" for the outputs.)  
 
 ---
 # 12.2 Injective and Surjective Functions
@@ -40,7 +40,7 @@ Suppose $A$ and $B$ are finite sets and $f:A\rightarrow B$ is any function.
 
 **Definition 12.6** For a set $A$, the **identity function** on $A$ is the function $i_A:A\rightarrow A$ defined as $i_A(x)=x\,\,\,\forall\, x\in A$.  
 
-**Definition 12.7** Given a relation $R$ from $A$ to $B$, the **inverse relation** of $R$ is the relationship from $B$ to $A$ defined as $R^{-1}=\{(y,x):(x,y)\in R\}$. In other words, the inverse of $R$ is the relation $R^{-1}$ obtained by integerchanging teh elements in every ordered pair in $R$.
+**Definition 12.7** Given a relation $R$ from $A$ to $B$, the **inverse relation** of $R$ is the relationship from $B$ to $A$ defined as $R^{-1}=\{(y,x):(x,y)\in R\}$. In other words, the inverse of $R$ is the relation $R^{-1}$ obtained by interchanging the elements in every ordered pair in $R$.
 
 ---
 **Theorem 12.3** Let $f:A\rightarrow B$ be a function. Then $f$ is bijective if and only if the inverse function $f^-1$ is a function from $B$ to $A$.  

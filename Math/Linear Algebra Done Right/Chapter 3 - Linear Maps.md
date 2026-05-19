@@ -11,7 +11,7 @@ title: Chapter 3 - Linear Maps
 
 **Learning Objectives for this Chapter**
 - Fundamental Theorem of Linear Maps
-- The matrix of al inear map with respect to given bases
+- The matrix of a linear map with respect to given bases
 - Isomorphic Vector Spaces
 - Product Spaces
 - Quotient Spaces
@@ -32,7 +32,7 @@ I don't usually do examples, but I quite like this one.
 
 **3.4 Example** *linear maps*
 **Zero**
-As ana dditional use, we let the symbol $0$ denote the function tha takes each element of some vector space to the additive identity of another vector space, that is, $0\in\mathcal{L}(V,W)$, defined by $$0v=0.$$ The $0$ on the left side is a function from $V$ to $W$, and the $0$ on the right side is the is the additive identity in $W$.
+As an additional use, we let the symbol $0$ denote the function that takes each element of some vector space to the additive identity of another vector space, that is, $0\in\mathcal{L}(V,W)$, defined by $$0v=0.$$ The $0$ on the left side is a function from $V$ to $W$, and the $0$ on the right side is the additive identity in $W$.
 
 **Identity**
 The *identity map*, denoted *I*, is the function on some vector space that takes each element to itself, that is, $I\in\mathcal{L}(V,V)$, defined by $$Iv=v.$$
@@ -67,9 +67,9 @@ With the operations of addition and scalar multiplication as defined above, $\ma
 **3.8 Definition** *Product of Linear Maps*
 If $T\in\mathcal{L}(U,V)\text{ and }S\in\mathcal{L}(V,W)$, then the *product* $ST\in\mathcal{L}(U,W)$ is defined by $$(ST)(u)=S(Tu)$$ for $u\in U$. 
 
-**3.9 Algebaic properties of products of linear maps**
+**3.9 Algebraic properties of products of linear maps**
 **associativity**
-$$(T_1T_2)T_3=T_1(T_2)(T_3)$$ whenever $T_1,T_2\text{, and }T_3$ are linaer maps such that the products make sense. 
+$$(T_1T_2)T_3=T_1(T_2)(T_3)$$ whenever $T_1,T_2\text{, and }T_3$ are linear maps such that the products make sense. 
 
 **identity**
 $$TI=IT=T$$whenever $T\in\mathcal{L}(V,W)$. (The first $I$ is the identity map on $V$, and the second is the identity map on $W$.)
@@ -88,7 +88,7 @@ For $T\in\mathcal{L}(V,W)$, the *null space* of $T$, denoted $\mathrm{null}\,T$,
 *Note:* Some mathematicians use the term **kernel** instead of "null space". This is interesting, I never knew that's what kernel meant. 
 
 **3.14 The null space is a subspace**
-Suppose $T\in\mathcal{L}(V,W)$; then, $\mathrm{null}\,T$ is a subpsace of $V$. 
+Suppose $T\in\mathcal{L}(V,W)$; then, $\mathrm{null}\,T$ is a subspace of $V$. 
 
 **3.15 Definition** *injective*
 A function $T:V\rightarrow W$ is called *injective* if $Tu=Tv$ implies $u=v$. 
@@ -107,7 +107,7 @@ In other words, range is the set of outputs of a function.
 If $T\in\mathcal{L}(V,W)$, then range $T$ is a subspace of $W$.
 
 **3.20 Definition** *surjective*
-A function $T:V\rightarrow W$ is aclled *surjective* if its range equals $W$. 
+A function $T:V\rightarrow W$ is called *surjective* if its range equals $W$. 
 
 *note*: Many mathematicians use the term **onto**, which means the same as surjective. 
 
@@ -153,7 +153,7 @@ The sum of two matrices of the same size is the matrix obtained by adding corres
 Suppose $S,T\in\mathcal{L}(V,W).$ Then $\mathcal{M}(S+T)=\mathcal{M}(S)+\mathcal{M}(T)$. 
 
 **3.37 Definition** *scalar multiplication of a matrix*
-The product of a scalar and a amtrix is a matrix obtained by multiplying each entry in the matrix by the scalar: $(\lambda A)_{j,k}=\lambda A_{j,k}$. 
+The product of a scalar and a matrix is a matrix obtained by multiplying each entry in the matrix by the scalar: $(\lambda A)_{j,k}=\lambda A_{j,k}$. 
 
 **3.38 The matrix of a scalar times a linear map**
 Suppose $\lambda\in\mathbb{F}$ and $R\in\mathcal{L}(V,W)$. Then $\mathcal{M}(\lambda T)=\lambda\mathcal{M}(T)$.
@@ -184,7 +184,7 @@ This is just the dot product thing row $\cdot$ column said more formally.
 Suppose $A$ is an $m$-by-$n$ matrix and $C$ is an $n$-by-$p$ matrix; then, $$(AC)_{\cdot,k}=AC_{\cdot,k}$$ for $1\le k\le p$. 
 
 **3.52 Linear combination of columns**
-Suppose $A$ is an $m$-by-$n$ matrix and $c=\begin{pmatrix}c_1\\\vdots\\c_n\end{pmatrix}$ is an $n$-by-$1$ matrix, then $$Ac=c_1A_{\cdot,1}+\cdots+c_nA_{\cdot,n}.$$ In other words, $AC$ is a linear combinations of colimns of $A$, with the scalars that multiply the columns coming from $c$. 
+Suppose $A$ is an $m$-by-$n$ matrix and $c=\begin{pmatrix}c_1\\\vdots\\c_n\end{pmatrix}$ is an $n$-by-$1$ matrix, then $$Ac=c_1A_{\cdot,1}+\cdots+c_nA_{\cdot,n}.$$ In other words, $AC$ is a linear combinations of columns of $A$, with the scalars that multiply the columns coming from $c$. 
 
 ---
 ## 3.D Invertibility and Isomorphic Vector Spaces
@@ -307,7 +307,7 @@ Suppose $T\in\mathcal{L}(V,W), then,
 4. $V/(\mathrm{null}\,T)$ is isomorphic to range $T$. 
 
 ## 3.F Duality
-### The Dual Spaec and the Dual Map
+### The Dual Space and the Dual Map
 **3.92 Definition** *linear functional*
 A *linear functional* on $V$ is a linear map $V$ to $\mathbb{F}$. In other words, a linear functional is an element of $\mathcal{L}(V,\mathbb{F})$. 
 
@@ -321,7 +321,7 @@ Suppose $V$ is finite-dimensional. Then $V'$ is also finite-dimensional and $\di
 If $v_1,\dots,v_n$ is a basis of $V$, then the *dual basis* of $v_1,\dots,v_n$ is the list $\phi_1,\dots,\phi_n$ of elements of $V'$, where each $\phi_j$ is the linear functional on $V$ such that $$\phi_j(v_k)=\begin{cases}1\quad\text{if}\,k=j\\0\quad\text{if}\,j\neq j\end{cases}$$
 
 **3.98 Dual basis is a basis of the dual space**
-Suppes $V$ is finite-dimensional. Then the dual basis of a basis of $V$ is a basis of $V'$. 
+Suppose $V$ is finite-dimensional. Then the dual basis of a basis of $V$ is a basis of $V'$. 
 
 **3.99 Definition** *dual map*, $T'$
 If $T\in\mathcal{L}(V,W)$, then the *dual map* of $T$ is the linear map $T'\in\mathcal{L}(W',V')$ defined by $T'(\phi)=\phi\circ T$ for $\phi\in W'$. 
@@ -362,7 +362,7 @@ Suppose $V$ and $W$ are finite-dimensional and $T\in\mathcal{L}(V,W)$. Then $T$ 
 ---
 ### The Matrix of the Dual of a Linear Map
 **3.111 Definition** *transpose,* $A^t$
-The **transpose** of a matrix $A$, denoted $A^t$, is the matrix obtained from $A$ by interchanging the rows and columns. More specifically, if $A$ is an $m$-by-$n$ matrix, then $A^t$ is the $n$-by-$m$ matrix whose entriess are given by the equation $$(A^t)_{k,j}=A_{j,k}.$$
+The **transpose** of a matrix $A$, denoted $A^t$, is the matrix obtained from $A$ by interchanging the rows and columns. More specifically, if $A$ is an $m$-by-$n$ matrix, then $A^t$ is the $n$-by-$m$ matrix whose entries are given by the equation $$(A^t)_{k,j}=A_{j,k}.$$
 
 **3.113 The transpose of the product of matrices**
 If $A$ is an $m$-by-$n$ matrix and $C$ is an $n$-by-$p$ matrix, then $(AC)^t=C^tA^t$. 

@@ -26,7 +26,7 @@ An *inner product* on $V$ is a function that takes each ordered pair $(u,v)$ of 
 
 **positivity** $$\langle u,v\rangle\ge0\;\forall\;v\in V;$$
 **definiteness** $$\langle u,v\rangle=0\text{ if and only if }v=0;$$
-**additiivty in the first slot** $$\langle u+v,w\rangle=\langle u,w\rangle+\langle v,w\rangle\;\forall\;u,v,w\in V;$$
+**additivity in the first slot** $$\langle u+v,w\rangle=\langle u,w\rangle+\langle v,w\rangle\;\forall\;u,v,w\in V;$$
 **homogeneity in the first slot** $$\langle \lambda u,v\rangle=\lambda\langle u,v\rangle\;\forall\;\lambda\in\mathbb{F}\;\land\;u,v\in V;$$
 **conjugate symmetry** $$\langle u,v\rangle=\overline{\langle v,u\rangle}\;\forall\;u,v\in V.$$
 
@@ -158,4 +158,4 @@ Suppose $U$ is a finite-dimensional subspace of $V$ and $v\in V$. Then
 ---
 ### Minimization Problems
 **6.56 Minimizing the distance to a subspace**
-Suppoe $U$ is a finite-dimensional subspace of $V, v\in V$, and $u\in U$, then $$\|v-P_Uv\|\le\|v-u\|.$$ Furthermore, the inequality above is an equality if and only if $u=P_Uv.$
+Suppose $U$ is a finite-dimensional subspace of $V, v\in V$, and $u\in U$, then $$\|v-P_Uv\|\le\|v-u\|.$$ Furthermore, the inequality above is an equality if and only if $u=P_Uv.$

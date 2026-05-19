@@ -7,7 +7,7 @@ tags: [Part II - Lagrangian Mechanics]
 # Part II - Lagrangian Mechanics
 Lagrangian mechanics describes motion in a mechanical system by means of the configuration space. The configuration space of a mechanical system has the structure of a differentiable manifold, on which a group of diffeomorphisms acts. The basic ideas and theorems of Lagrangian mechanics are invariant under this group, even if formulated in terms of local coordinates.
 
-A Lagrangian mecahnical system is given by a manifold ("configuration space") and a function on its tangent bundle ("the Lagrangian function").
+A Lagrangian mechanical system is given by a manifold ("configuration space") and a function on its tangent bundle ("the Lagrangian function").
 
 Every one-parameter group of diffeomorphisms of configuration space which fixes the lagrangian function defines a conservation law. (id est, a first integral of the equations of motion). 
 
@@ -28,11 +28,11 @@ Consider the increment of $\Phi,\,\Phi(\gamma+h)-\Phi(\gamma)$,
 
 ---
 **A.** *Variations*
-**Definition.** A function $\Phi$ is called *differentiable* if $\Phi(\gamma+h)-\Phi(\gamma)=F+R$, where $F$ depends linearly on $h$ anf where $R(h,y)=\mathcal{O}(h^2)$. The linear part of the increment, $F(h)$, is called the *differential*. 
+**Definition.** A function $\Phi$ is called *differentiable* if $\Phi(\gamma+h)-\Phi(\gamma)=F+R$, where $F$ depends linearly on $h$ and where $R(h,y)=\mathcal{O}(h^2)$. The linear part of the increment, $F(h)$, is called the *differential*. 
 
 It can be shown that if $\Phi$ is differentiable, its differential is uniquely defined. The differential of a function is also called its *variation*, and $h$ is called a *variation of the curve*.
 
-**Theorem.** *The functional $\Phi(\gamma)=\int^{t_1}_{t_0}L(x,\dot{x},t)\,dt$ is differntiable, and the derivative is given by the formula* $$F(h)=\int^{t_1}_{t_0}\left[\frac{\partial L}{\partial x}-\frac{d}{dt}\frac{\partial L}{\partial\dot{x}}\right]h\,dt+\left(\frac{\partial L}{\partial\dot{x}}h\right)\bigg|^{t_1}_{t_0}.$$
+**Theorem.** *The functional $\Phi(\gamma)=\int^{t_1}_{t_0}L(x,\dot{x},t)\,dt$ is differentiable, and the derivative is given by the formula* $$F(h)=\int^{t_1}_{t_0}\left[\frac{\partial L}{\partial x}-\frac{d}{dt}\frac{\partial L}{\partial\dot{x}}\right]h\,dt+\left(\frac{\partial L}{\partial\dot{x}}h\right)\bigg|^{t_1}_{t_0}.$$
 
 ---
 **B.** *Extremals*
@@ -135,7 +135,7 @@ By means of a Legendre transformation, a Lagrangian system of second-order diffe
 
 ---
 **A.** *Equivalence of Lagrange's and Hamilton's equations*
-We consider the system of Lagrange's equations $\dot{\vec{p}}=\partial L/\partial\vec{q}$, where $\vec{p}=\partial L/\partial\dot{\vec{q}}$, with a given Lagrangian function $L:\mathbb{R}^n\times\mathbb{R}^n\times\mathbb{R}\rightarrow\mathbb{R}$, which we wil assume to be convex with respect to the second argument $\dot{\vec{q}}$. 
+We consider the system of Lagrange's equations $\dot{\vec{p}}=\partial L/\partial\vec{q}$, where $\vec{p}=\partial L/\partial\dot{\vec{q}}$, with a given Lagrangian function $L:\mathbb{R}^n\times\mathbb{R}^n\times\mathbb{R}\rightarrow\mathbb{R}$, which we will assume to be convex with respect to the second argument $\dot{\vec{q}}$. 
 
 **Theorem.** *The system of Lagrange's equations is equivalent to the system of $2n$ first-order equations (Hamilton's equations)*$$\begin{aligned}\dot{\vec{p}}&=-\frac{\partial H}{\partial\vec{q}}\\\dot{\vec{q}}&=\,\,\,\,\frac{\partial H}{\partial\vec{p}},\end{aligned}$$*where $H(\vec{p},\vec{q},t)=\vec{p}\dot{\vec{q}}-L(\vec{q},\dot{\vec{q}},t)$ is the Legendre transformation of the Lagrangian function viewed as a function of $\dot{\vec{q}}$.*
 
@@ -155,11 +155,11 @@ I'll actually go through this following proof, which is based on the lemma:
 **Proof of the Lemma**. By Euler's theorem on a homogeneous functions $(\partial f/
 \partial\vec{x})\vec{x}=2f$, therefore, $g(\vec{p}(\vec{x}))=\vec{p}\vec{x}-f(\vec{x})=(\partial f/\partial\vec{x})\vec{x}-f=2f(x)-f(x)=f(x).$
 
-**Proof of the theorem**. Reasoning as in the lemme, we find that $H=\vec{p}\dot{\vec{q}}-L=2T-(T-U)=T+U.$
+**Proof of the theorem**. Reasoning as in the lemma, we find that $H=\vec{p}\dot{\vec{q}}-L=2T-(T-U)=T+U.$
 
 **Example.** For one-dimensional motion $$\ddot{q}=-\frac{\partial U}{\partial q}.$$ In this case, $T=\frac{1}{2}\dot{q}^2, U=U(q),p=\dot{q},H=\frac{1}{2}p^2+U(q)$ and Hamilton's equations take the form $$\begin{aligned}\dot{q}&=p\\\dot{p}&=-\frac{\partial U}{\partial q}.\end{aligned}$$
 
-**Corallary 1.** $dH/dt=\partial H/\partial t$. *In particular, for a system where the Hamiltonian function does not depend explicitly on time $(\partial H/\partial t=0)$ , the law of the conservation of the hamiltonian function holds: $H(\vec{p}(t),\vec{q}(t))=$ constant*.
+**Corollary 1.** $dH/dt=\partial H/\partial t$. *In particular, for a system where the Hamiltonian function does not depend explicitly on time $(\partial H/\partial t=0)$ , the law of the conservation of the hamiltonian function holds: $H(\vec{p}(t),\vec{q}(t))=$ constant*.
 
 ---
 **C.** *Cyclic coordinates*
@@ -209,9 +209,9 @@ Then, in any neighborhood $U$ of any point $D$ there is a point $x\in U$ which r
 Aside: (The way the ball will move in an asymmetrical cup is unknown; however, Poincaré's theorem predicts it will return to a neighborhood of the original position)
 
 This theorem applies, for example, to the phase flow $g^t$ of a two-dimensional system whose potential $U(x_1,x_2)$ goes to infinity as $(x_1,x_2)\rightarrow\infty$; in this case the invariant bounded region in phase space is given by the condition $$D=\{\vec{p},\vec{q}:T+U\le E\}.$$
-Pointcaré's theorem can be strengthened, showing that almost every moving point returns repeatedly to the vicinity of its initial position. This is one of the few general conclusions which can be drawn about the character of motion. The details of motion are not known at all, even in the case $$\ddot{\vec{x}}=-\frac{\partial U}{\partial\vec{x}}\quad\text{where }\vec{x}=(x_1,x_2).$$ 
+Poincaré's theorem can be strengthened, showing that almost every moving point returns repeatedly to the vicinity of its initial position. This is one of the few general conclusions which can be drawn about the character of motion. The details of motion are not known at all, even in the case $$\ddot{\vec{x}}=-\frac{\partial U}{\partial\vec{x}}\quad\text{where }\vec{x}=(x_1,x_2).$$ 
 
-The following prediction is a parodxical conclusion from the theorem's of Poincaré and Liouville: if you open a partition separating a chamber containing gas and a chamber with vacuum, then after a while the gas molecules will again collect in the first chamber. 
+The following prediction is a paradoxical conclusion from the theorem's of Poincaré and Liouville: if you open a partition separating a chamber containing gas and a chamber with vacuum, then after a while the gas molecules will again collect in the first chamber. 
 
 ---
 **E.** *Applications of Poincaré's theorem*

@@ -72,7 +72,7 @@ Suppose $T$ is a self-adjoint operator on $V$ such that $$\langle Tv,v\rangle=0$
 - In other words, $T\in\mathcal{L}(V)$ is normal if $$TT^*=T^*T.$$
 
 **7.20 $T$ is normal if and only if $\|Tv\|=\|T^*v\|\,\forall\,v$**
-An opertor $T\in\mathcal{L}(V)$ is normal if and only if $$\|Tv\|=\|T^*v\|$$ for all $v\in V$. 
+An operator $T\in\mathcal{L}(V)$ is normal if and only if $$\|Tv\|=\|T^*v\|$$ for all $v\in V$. 
 
 **7.21 For $T$ normal, $T$ and $T^*$ have the same eigenvectors.**
 Suppose $T\in\mathcal{L}(V)$ is normal and $v\in V$ is an eigenvector of $T$ with eigenvalue $\lambda$. Then $v$ is also an eigenvector of $T^*$ with eigenvalue $\overline{\lambda}$. 
@@ -132,7 +132,7 @@ Every positive operator on $V$ has a unique positive square root.
 ---
 ### Isometries
 **7.37 Definition** *isometry 
-- An ioeratir $S\in\mathcal{L}(V)$ is called an *isometry* if $$\|Sv\|=\|v\|$$ for all $v\in V$. 
+- An operator $S\in\mathcal{L}(V)$ is called an *isometry* if $$\|Sv\|=\|v\|$$ for all $v\in V$. 
 - In other words, an operator is an isometry if it preserves norms. 
 
 *Note: An isometry on a real inner product space is called **orthogonal**. An isometry on a complex inner product space is called a **unitary** operator. We use isometry so that results can apply to both real and complex inner product spaces. 

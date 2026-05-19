@@ -38,12 +38,12 @@ This notation comes from the fact that both $\mathbb{R} and $\mathbb{C}$ are *Fi
 ### Lists
 
 **1.7 Example** $\mathbb{R}^2$ and $\mathbb{R}^3$.
-- The set $\mathbb{R}^2$, which you can thinko f as a plane, is the set of all ordered pairs of real numbers: $$\mathbb{R}^2=\{(x,y):x,y\in\mathbb{R}\}.$$
+- The set $\mathbb{R}^2$, which you can think of as a plane, is the set of all ordered pairs of real numbers: $$\mathbb{R}^2=\{(x,y):x,y\in\mathbb{R}\}.$$
 - The set $\mathbb{R}^3$, which you can think of as ordinary space, is the set of all ordered triples of real numbers: $$\mathbb{R}^3=\{(x,y,z):x,y,z\in\mathbb{R}\}.$$
 
 ---
 **1.8 Definition** *list, length*
-Suppose $n$ is a nonnegative integer. A ***list*** of ***length*** $n$ is an ordered collection of $n$ elements seperated by commas and surrounded by parentheses. A list of length $n$ looks like: $$(x_1,\dots,x_n).$$ Two lists are equal if and only if they have the same length and elements in the same order.
+Suppose $n$ is a nonnegative integer. A ***list*** of ***length*** $n$ is an ordered collection of $n$ elements separated by commas and surrounded by parentheses. A list of length $n$ looks like: $$(x_1,\dots,x_n).$$ Two lists are equal if and only if they have the same length and elements in the same order.
 
 *many mathematicians call a list of length $n$ an $n$-tuple.* 
 

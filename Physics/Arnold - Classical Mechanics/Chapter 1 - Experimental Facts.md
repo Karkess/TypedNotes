@@ -25,7 +25,7 @@ The initial state of a mechanical system uniquely determines all of its motion.
 A. *Notation*
 We denote the set of all real numbers by $\mathbb{R}$. We denote by $\mathbb{R}^n$ an n-dimensional real vector space. 
 
-*Affine* n-dimensonal space $\mathbb{A}^n$ is distinguished from $\mathbb{R}^n$ in that there is "no fixed origin." The group $\mathbb{R}^n$ acts on $\mathbb{A}^n$ as a group of parallel displacements. $$a\rightarrow a+\vec{b},\quad a\in\mathbb{A}^n,\;\vec{b}\in\mathbb{R}^n,\;a+\vec{b}\in\mathbb{A}^n.$$ Note: The sum of two points in $\mathbb{A}^n$ is not defined, but their difference is defined and is a vector in $\mathbb{R}^n$. 
+*Affine* n-dimensional space $\mathbb{A}^n$ is distinguished from $\mathbb{R}^n$ in that there is "no fixed origin." The group $\mathbb{R}^n$ acts on $\mathbb{A}^n$ as a group of parallel displacements. $$a\rightarrow a+\vec{b},\quad a\in\mathbb{A}^n,\;\vec{b}\in\mathbb{R}^n,\;a+\vec{b}\in\mathbb{A}^n.$$ Note: The sum of two points in $\mathbb{A}^n$ is not defined, but their difference is defined and is a vector in $\mathbb{R}^n$. 
 
 A *Euclidean structure* on the vector space $\mathbb{R}^n$ is a positive definite symmetric bilinear form called a *scalar product*, defining the distance: $$\rho(x,y)=\|x-y\|=\sqrt{(x-y,x-y)}$$ between the points in the *Affine* space. An affine space with this distance function is called a *Euclidean space* and is denoted $\mathbb{E}^n$. 
 
@@ -52,7 +52,7 @@ A direct product of $n$ copies of $\mathbb{R}^3$ is called the *configuration sp
 
 ---
 D. *Newton's Equations*
-Newton's principle of determinacy - All motions of a ytem are uniquely determined by initial positions $(\vec{x}(t_0)\in\mathbb{R}^N)$ and initial velocities $(\vec{\dot{x}}(t_0)\in\mathbb{R}^n)$. 
+Newton's principle of determinacy - All motions of a system are uniquely determined by initial positions $(\vec{x}(t_0)\in\mathbb{R}^N)$ and initial velocities $(\vec{\dot{x}}(t_0)\in\mathbb{R}^n)$. 
 Specifically, there is a function $\vec{F}:\mathbb{R}^N\times\mathbb{R}^N\times\mathbb{R}\rightarrow\mathbb{R}^N$ such that $$\vec{\ddot{x}}=\vec{F}(\vec{x},\vec{\dot{x}},t).$$ This is called Newton's Equation, as he used it as the basis of mechanics.
 
 ---

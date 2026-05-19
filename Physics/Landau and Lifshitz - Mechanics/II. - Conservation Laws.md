@@ -7,7 +7,7 @@ title: II. - Conservation Laws
 ## 6. Energy
 There are functions that remain constant during motion and depend only on initial conditions. We call these *integrals of motion*. 
 
-Then umber of independent integrals of motion for a closed mechanical system with $s$ degrees of freedom is $2s-1$. 
+The number of independent integrals of motion for a closed mechanical system with $s$ degrees of freedom is $2s-1$. 
 
 Since the equations of motion for a closed system do not involve the time explicitly, the choice for origin of time is entirely arbitrary. 
 
@@ -57,7 +57,7 @@ The momentum of a closed mechanical system has different values in different (in
 
 In particular, there is always a frame of reference $K'$ in which the total momentum is zero. We can find the velocity of this frame by finding where $\vec{P}'=0$: $$\vec{V}=\vec{P}/\sum m_a=\frac{\sum m_av_a}{\sum m_a}.$$
 
-Id the total momentum of the mechanical system is zero in a given frame of reference, we say it is ***at rest*** relative to the frame. 
+If the total momentum of the mechanical system is zero in a given frame of reference, we say it is ***at rest*** relative to the frame. 
 
 Seeing that the relationship between momentum and velocity for a system is the same as the momentum and velocity of a single particle, can be regarded as expressing the *additivity of mass*. 
 
@@ -74,11 +74,11 @@ Find the law of transformation of the action $S$ from one inertial frame to anot
 ## 9. Angular Momentum
 Let us now derive the conversation law which comes from the *isotropy of space*. This isotropy means that the mechanical properties of a closed system do not vary when it is rotated as a whole in any manner of space. Let us therefore consider an infinitesimal rotation of the system, and obtain the condition for the Lagrangian to be unchanged. 
 
-The vector $\delta\vec{\phi}$ will be used for the infinitesimal rotation. The direction of rotation will follow the right hand rule. The linear displacement of the ned of the radius vector is related to the angle by $|\delta\vec{r}|=r\sin(\theta)\,\delta\phi$. The direction of $\delta\vec{r}$ is perpendicular to the plane of $\vec{r}$ and $\delta\vec{\phi}$, thus: $$\delta\vec{r}=\delta\vec{\phi}\times\vec{r}.$$The velocity increment relative to the fixed system is given by $\delta\vec{v}=\delta\vec{\phi}\times\vec{v}$. 
+The vector $\delta\vec{\phi}$ will be used for the infinitesimal rotation. The direction of rotation will follow the right hand rule. The linear displacement of the end of the radius vector is related to the angle by $|\delta\vec{r}|=r\sin(\theta)\,\delta\phi$. The direction of $\delta\vec{r}$ is perpendicular to the plane of $\vec{r}$ and $\delta\vec{\phi}$, thus: $$\delta\vec{r}=\delta\vec{\phi}\times\vec{r}.$$The velocity increment relative to the fixed system is given by $\delta\vec{v}=\delta\vec{\phi}\times\vec{v}$. 
 
-If these expressions are used with the condition the Lagrangian remains unchanged by rotation we arrive at: $$\delta\mathcal{L}=\sum_a\left(\frac{\partial\mathcal{L}}{\partial\vec{r}_a}\cdot\delta\vec{r}_a+\frac{\partial\mathcal{L}}{\partial\vec{v}_a}\cdot\delta\vec{v}_a\right)=0$$ and our derivative $\partial\mathcal{L}/\partial\vec{v}_a$ replaced by $\vec{p}_a$, and $\partial\mathcal{L}/\partial\vec{r}_a$ by $\dot{\vec{p}}_a$, resuling in: $$\sum_a\left(\dot{\vec{p}}_a\cdot\delta\vec{\phi}\times\vec{r}_a+\vec{p}_a\cdot\delta\vec{\phi}\times\vec{v}_a\right)=0$$ Rearranging, $$\delta\vec{\phi}\sum_a\left(\vec{r}_a\times\dot{\vec{p}}_a+\vec{v}_a\times\vec{p}_a\right)=\delta\vec{\phi}\cdot\frac{d}{dt}\sum_a\vec{r}_a\times\vec{p}_a=0.$$
+If these expressions are used with the condition the Lagrangian remains unchanged by rotation we arrive at: $$\delta\mathcal{L}=\sum_a\left(\frac{\partial\mathcal{L}}{\partial\vec{r}_a}\cdot\delta\vec{r}_a+\frac{\partial\mathcal{L}}{\partial\vec{v}_a}\cdot\delta\vec{v}_a\right)=0$$ and our derivative $\partial\mathcal{L}/\partial\vec{v}_a$ replaced by $\vec{p}_a$, and $\partial\mathcal{L}/\partial\vec{r}_a$ by $\dot{\vec{p}}_a$, resulting in: $$\sum_a\left(\dot{\vec{p}}_a\cdot\delta\vec{\phi}\times\vec{r}_a+\vec{p}_a\cdot\delta\vec{\phi}\times\vec{v}_a\right)=0$$ Rearranging, $$\delta\vec{\phi}\sum_a\left(\vec{r}_a\times\dot{\vec{p}}_a+\vec{v}_a\times\vec{p}_a\right)=\delta\vec{\phi}\cdot\frac{d}{dt}\sum_a\vec{r}_a\times\vec{p}_a=0.$$
 
-Due to $\delta\vec{\phi}$ being arbitrary, we know that hte condition $\frac{d}{dt}\sum\vec{r}_a\times\vec{p}_a=0$, and ultimately we conclude: $$\vec{M}\equiv\sum_a\vec{r}_a\times\vec{p}_a,$$ which we call the *angular momentum* or *moment of momentum*, which is conserved in the motion of a closed system. Similar to linear momentum, it is conserved regardless of interaction terms inside of the system. 
+Due to $\delta\vec{\phi}$ being arbitrary, we know that the condition $\frac{d}{dt}\sum\vec{r}_a\times\vec{p}_a=0$, and ultimately we conclude: $$\vec{M}\equiv\sum_a\vec{r}_a\times\vec{p}_a,$$ which we call the *angular momentum* or *moment of momentum*, which is conserved in the motion of a closed system. Similar to linear momentum, it is conserved regardless of interaction terms inside of the system. 
 
 ---
 <center>
@@ -95,6 +95,6 @@ From the cross product we can see that the law of conservation of angular moment
 
 An important special case is that of a *centrally symmetric field* or *central field*, id est, a potential field dependent only on distance from the center. The angular momentum is conserved in along any axis passing through the center of the field. 
 
-The component of angular momentum along any axis ca be found by differentiating the Lagrangian: $$M_{e_n}=\sum_a\frac{\partial\mathcal{L}}{\partial\phi_a},$$ where the coordinate $\phi$ is the angle of rotation about the axis $e_n$. 
+The component of angular momentum along any axis can be found by differentiating the Lagrangian: $$M_{e_n}=\sum_a\frac{\partial\mathcal{L}}{\partial\phi_a},$$ where the coordinate $\phi$ is the angle of rotation about the axis $e_n$. 
 
 ## 10. Mechanical Similarity

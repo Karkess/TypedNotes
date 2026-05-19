@@ -9,7 +9,7 @@ title: Chapter 1 - Electromagnetism
 The electrical force is one with positive and negative matter that has a strength that is about a *billion-billion-billion-billion* times stronger than gravity.
 This force much like gravity varies predominantly by the inverse of the square of the distance.
 
-If you were to stand at arms length with another percent and each of you had *one percent* more electrons than protons, the repulsive force between you two would be so much that it could lift the "weight" of the entire Earth!
+If you were to stand at arms length with another person and each of you had *one percent* more electrons than protons, the repulsive force between you two would be so much that it could lift the "weight" of the entire Earth!
 
 This raises the question of how the nucleus with its positive charges stays together, or how the electron doesn't crash into the nucleus, with their opposite charges. 
 - The electron is held at a distance by considerations in quantum mechanics, such as the uncertainty principle with the momentum of the 'particle', among other considerations.
@@ -26,7 +26,7 @@ We write the force $F$ on a charge $q$ moving with a velocity $v$ as $$F=q(E+v\t
 
 We can determine the motion of the particle if we know the force acting on it, so here we can combine our force equations to determine uniquely the motion of the particles:$$\frac{d}{dt}\left[\frac{mv}{\sqrt{1-v^2/c^2}}\right]=F=q(E+v\times B).$$
 
-The *principle of superpositon of fields* states that if two fields are interacting at a single place at a single time, the field produced is simply the sum of the two fields: $$E=E_1+E_2.$$
+The *principle of superposition of fields* states that if two fields are interacting at a single place at a single time, the field produced is simply the sum of the two fields: $$E=E_1+E_2.$$
 
 Due to the unwieldy nature of determining forces that change with time and accelerations and motion, it turns out to be easier to determine the properties of electromagnetism in another formulation, by fields.
 

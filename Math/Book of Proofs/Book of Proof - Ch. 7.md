@@ -32,7 +32,7 @@ Let us see a simple example of a biconditional proof.
 
 *Proof*. Suppose $n$ is odd. Then, by definition of an odd number, $n=2a+1$ for some integer $a$. Thus $n^2=(2a+1)^2=4a^2+4a+1=2(2a^2+2a)+1$. This expresses $n^2$ as twice an integer, plus 1, so $n^2$ is odd.  
 
-Conversely, we need to prove that $n^2$ being odd implies that $n$ is odd. Suppose $n$ is not odd. Then $n$ is even, so $n=2a$ for some integer $a$ (by definition of an even number). Thus $n^2=(2a)^2=2(2a^2)$, so $n^2$ is even because it's twice an integer. Thus $n^2$ is not odd. We've now proved that if $n$ is not odd, then $n^2$ is not odd, and this is a contropostiive proof that if $n^2$ is odd then $n$ is odd.  
+Conversely, we need to prove that $n^2$ being odd implies that $n$ is odd. Suppose $n$ is not odd. Then $n$ is even, so $n=2a$ for some integer $a$ (by definition of an even number). Thus $n^2=(2a)^2=2(2a^2)$, so $n^2$ is even because it's twice an integer. Thus $n^2$ is not odd. We've now proved that if $n$ is not odd, then $n^2$ is not odd, and this is a contrapositive proof that if $n^2$ is odd then $n$ is odd.  
 
 ---
 # 7.2 Equivalent Statements
@@ -67,9 +67,9 @@ Some examples are quite simple.
 ---
 Some examples require a little more legwork. 
 
-**Proposition** There exists an integer that can be expressed as the sum o two perfect cubes in two different ways.
+**Proposition** There exists an integer that can be expressed as the sum of two perfect cubes in two different ways.
 
-*Proof*. Consider the number 1729. Note that $1^3+12^3=1729$ and $9^3+10^3=1729$. Thus the number 1729 can be expressed as the sum o two perfect cubes in two different ways.
+*Proof*. Consider the number 1729. Note that $1^3+12^3=1729$ and $9^3+10^3=1729$. Thus the number 1729 can be expressed as the sum of two perfect cubes in two different ways.
 
 ---
 
@@ -88,7 +88,7 @@ As an example:
 This set contains both positive and negative integers, as well as 0.  
 Let $d$ be the smallest *positive* element of $A$.  
 Because $d$ is in $A$, it must have the form $d=ak+b\ell$ for some specific $k,\ell\in\mathbb{Z}$.  
-We will now show that $d=\gcd(a,b)$. To see that $d\mid a$, use the divison algorithm to write $a=qd+r$ for integers $q$ and $r$ with $0\le r<d$. The equation $a=qd+r$ yields
+We will now show that $d=\gcd(a,b)$. To see that $d\mid a$, use the division algorithm to write $a=qd+r$ for integers $q$ and $r$ with $0\le r<d$. The equation $a=qd+r$ yields
 $$
 \begin{aligned}
 r&=a-qd\\
@@ -118,7 +118,7 @@ Nonconstructive proofs prove an example exists without actually giving it.
 **Proposition** There exist irrational numbers $x,y$ for which $x^y$ is rational. 
 
 *Proof*. Let $x=\sqrt{2}^{\sqrt{2}}$ and $y=\sqrt{2}$. We know that $y$ is irrational, but not whether x is rational or irrational. On one hand, if $x$ is irrational, then we have an irrational number to an irrational power that is rational: $$x^y=\left(\sqrt{2}^{\sqrt{2}}\right)^\sqrt{2}=\sqrt{2}^{\sqrt{2}\sqrt{2}}=\sqrt{2}^2=2.$$
-On the other hand, if $x$ is rationa, then $y^y=\sqrt{2}^{\sqrt{2}}=x$ is rational. Either way, we have an irrational number to an irrational power that is rational. $\blacksquare$
+On the other hand, if $x$ is rational, then $y^y=\sqrt{2}^{\sqrt{2}}=x$ is rational. Either way, we have an irrational number to an irrational power that is rational. $\blacksquare$
 
 **Constructive** example:  
 **Proposition** There exist irrational numbers $x,y$ for which $x^y$ is rational. 
@@ -145,7 +145,7 @@ Do 1, 3, 8, 12, 14, 28
 **1.** Suppose $x\in\mathbb{Z}$. Then $x$ is even if and only if $3x+5$ is odd.  
 
 *Proof*. (Direct) Suppose $x$ is even, then $3x+5$ is odd. If $x$ is even, then there exists some integer $a$ such that $x=2a$. Substituting this into $3x+5$ we achieve $3(2a)+5=6a+5=2(3a+2)+1$, which is odd by definition of odd numbers.  
-(Contradiction) Suppose $3x+5$ is odd, for the sake of contradiction we assume that that $x$ is odd. This means there exists an integer b for which $x=2b+1$.  
+(Contradiction) Suppose $3x+5$ is odd, for the sake of contradiction we assume that $x$ is odd. This means there exists an integer b for which $x=2b+1$.  
 Substituting this value in we achieve $3x+5=3(2b+1)+5=6b+3+5=6b+8=2(2b+4)$.  
 This is an even value, so $3x+5$ is both even and odd. This is a contradiction. $\blacksquare$
 

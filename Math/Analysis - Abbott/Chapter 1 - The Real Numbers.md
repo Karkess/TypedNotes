@@ -18,7 +18,7 @@ $\mathbb{Q}$ possesses qualities which make it a field, in contrast to $\mathbb{
 ## 1.2 Some preliminaries
 ### Sets
 A *set* is a collection of objects. 
-Covers st builder notation, intersections, unions, empty set (uses $\emptyset$). 
+Covers set builder notation, intersections, unions, empty set (uses $\emptyset$). 
 
 ### Functions
 Talks about Dirichlet giving a definition of functions, essentially our classic $f:A\rightarrow B$. 
@@ -98,7 +98,7 @@ One way to determine the comparative size of two sets is to try and relate one e
 ### Countable Sets
 **Definition 1.5.5.** A set $A$ is *countable* if $\mathbb{N}\sim A$. An infinite set that is not countable is called an *uncountable* set.
 
-**Theorem 1.5.6.** (i) *The set $\mathbb{Q}$ is countable*. (ii) *The set $\mathbb{R}$ is unacountable.*
+**Theorem 1.5.6.** (i) *The set $\mathbb{Q}$ is countable*. (ii) *The set $\mathbb{R}$ is uncountable.*
 
 (The proof of this was actually pretty interesting, and a good use of proof by contradiction that isn't too tough to follow.)
 

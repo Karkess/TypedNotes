@@ -22,7 +22,7 @@ The total energy is the sum $$E=T+U.$$ In general, the total energy is a functio
 **B**. *Phase flow*
 Newton's equation is equivalent to the system of two equations: $$\dot{x}=y\quad\dot{y}=f(x).$$We consider the plane with coordinates $x$ and $y$, which we call the *phase plane* of Newton's equation. The points of the phase plane are called *phase points*. The equation $\dot{y}=f(X)$ determines a vector field on the phase plane, called the *phase velocity of the field*. 
 
-A solution to the system of equations is a mothion $\vec{\phi}:\mathbb{R}\rightarrow\mathbb{R}^2$ of a phase point in the phase plane, such that the velocity of the moving point at each moment of time is equal to the phase velocity vector at a location of the phase point at that moment. 
+A solution to the system of equations is a motion $\vec{\phi}:\mathbb{R}\rightarrow\mathbb{R}^2$ of a phase point in the phase plane, such that the velocity of the moving point at each moment of time is equal to the phase velocity vector at a location of the phase point at that moment. 
 
 The image of $\vec{\phi}$ is called the *phase curve*. Thus the phase curve is given by the parametric equations $$x=\phi(t)\quad y=\dot{\phi}(t).$$ A phase curve can consist of only one point, in which case the point is called an *equilibrium position*. The vector of the phase velocity at this point is zero. 
 
@@ -113,7 +113,7 @@ The total energy in the derived one-dimensional problem is conserved. Consequent
 **C.** *Investigation of the orbit*
 Fixing the value of the angular momentum at $M$, we can visualize the variation of $r$ with time as the graph of potential energy. 
 
-Let $E$ be the value of the total energy. All orbits corresponding to the given $E$ and $M$ lie in the region $V(r)\le E$. On the boundary of this region, $V=E$, i.e., $\dot{r}=0$. Therefore, the volicty of a moving point, in general, is not equal to zero since $\dot{\phi}\neq0$ for $M\neq0$. 
+Let $E$ be the value of the total energy. All orbits corresponding to the given $E$ and $M$ lie in the region $V(r)\le E$. On the boundary of this region, $V=E$, i.e., $\dot{r}=0$. Therefore, the velocity of a moving point, in general, is not equal to zero since $\dot{\phi}\neq0$ for $M\neq0$. 
 
 The inequality $V(r)\le E$ gives one or several annular regions in the plane: $$0\le r_{min}\le r\le r_{max}\le\infty.$$ 
 If this is true, the motion is bounded and takes place in the ring between the circles of radius $r_{min}$ and $r_{max}$. 
@@ -148,6 +148,6 @@ Every central field is conservative and $$\frac{d\vec{M}}{dt}=[\dot{\vec{r}},\do
 ### 10. Motions of a system of $n$ points
 **A.** *Internal and External forces*
 
-We know all of this. Sum of internal particles and the group of particles can be treated as a singe particle at the center of mass. 
+We know all of this. Sum of internal particles and the group of particles can be treated as a single particle at the center of mass. 
 
 ---

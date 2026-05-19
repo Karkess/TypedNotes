@@ -67,7 +67,7 @@ $\mathcal{P}(\mathbb{F})$ is a vector space over $\mathbb{F}$ and is thus a subs
 - The polynomial that is identically $0$ is said to have degree $-\infty$. 
 
 **2.13** $\mathcal{P}_m(\mathbb{F})$
-For $m$ a nonnegative integer, $\mathcal{P}_m(\mathbb{F}) denotes teh set of all polynomials with coefficients in $\mathbb{F}$ and degree at most $m$. 
+For $m$ a nonnegative integer, $\mathcal{P}_m(\mathbb{F}) denotes the set of all polynomials with coefficients in $\mathbb{F}$ and degree at most $m$. 
 
 **2.15 Definition** *infinite-dimensional vector space*
 A vector space is called *infinite dimensional* if it is not finite-dimensional.
@@ -115,7 +115,7 @@ Every finite dimensional vector space has a basis.
 Every linearly independent list of vectors in a finite-dimensional vector space can be extended to a basis of the vector space. 
 
 **2.34 Every subspace of $V$ is part of a direct sum equal to $V$**
-Auppoaw $V$ is finite-dimensional and $U$ is a subspace of $V$. Then there is a subspace $W$ of $V$ such that $V=U\oplus W$. 
+Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$. Then there is a subspace $W$ of $V$ such that $V=U\oplus W$. 
 
 ## 2.C Dimension
 

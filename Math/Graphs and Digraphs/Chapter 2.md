@@ -7,7 +7,7 @@ title: Chapter 2
 ## 2.1 Connected Graphs
 **Walks, Trails, and Paths**
 
-For two vertices $u$ and $v$ in a graph $G$, a $u-v$ **walk** $W$ in $G$ is a sequence of vertices in $G$, beginning with $u$ and ending at $v$, such that consecutive vertices in $W$ are adjacent to $G$. Such a walk $W$ in $G$ can be expressed as $$W=(u=v_0,v_1,\dots,v_k=v),$$ where $v_iv_{i+1}\in E(G)\text{ for }0\le i\le k-1.$
+For two vertices $u$ and $v$ in a graph $G$, a $u-v$ **walk** $W$ in $G$ is a sequence of vertices in $G$, beginning with $u$ and ending at $v$, such that consecutive vertices in $W$ are adjacent in $G$. Such a walk $W$ in $G$ can be expressed as $$W=(u=v_0,v_1,\dots,v_k=v),$$ where $v_iv_{i+1}\in E(G)\text{ for }0\le i\le k-1.$
 
 The number of edges included in $W$ is the **length** of $W$. 
 
@@ -33,7 +33,7 @@ Suppose that $G$ is a graph of order $n$, where $V(G)=\{v_1,v_2,\dots,v_n\}$. Th
 
 A nontrivial closed walk in a graph $G$ in which no edge is repeated is a **circuit** in $G$. 
 
-A circuit $$C=(v=v_0,v_1,\dots,v_k=v),$$ $k\ge2$, for which the verticies $v_i,\,0\le i\le k-1$, are distinct is a **cycle** in $G$. 
+A circuit $$C=(v=v_0,v_1,\dots,v_k=v),$$ $k\ge2$, for which the vertices $v_i,\,0\le i\le k-1$, are distinct is a **cycle** in $G$. 
 
 A cycle $C$ of length $k$ is called a $k$**-cycle**. A 3-cycle is referred to as a **triangle**. A cycle of even length is an **even cycle**, and a cycle of odd length is an **odd cycle**. 
 
@@ -82,7 +82,7 @@ Since $d$ satisfies the four above properties, $d$ is a **metric** on $V(G)$ and
 
 The **eccentricity** e(v) of a vertex $v$ in a connected graph $G$ is the distance between $v$ and a vertex farthest from $v$ in $G$. 
 
-The **diamater** $\mathrm{diam}(G)$ of a connected graph $G$ is the largest eccentricity among the vertices of $G$.
+The **diameter** $\mathrm{diam}(G)$ of a connected graph $G$ is the largest eccentricity among the vertices of $G$.
 
 The **radius** $\mathrm{rad}(G)$ is the smallest eccentricity among the vertices of $G$. 
 

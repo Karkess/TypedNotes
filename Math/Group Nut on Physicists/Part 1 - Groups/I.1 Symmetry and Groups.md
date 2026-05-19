@@ -78,7 +78,7 @@ Note, the square of $Z_2\otimes Z_2$ (known as Vierergruppe (or "4-group" in Ger
 
 The elements of $F$ are written as $(f, I)$, and $G$  as $(I,g)$. These commute. 
 
-It seems like an easy wayto construct larger groups, but nature does the same. The theory of the strong, weak, and electromagnetic interaction is based on the group: $SU(3)\otimes SU(2) \otimes U(1)$. 
+It seems like an easy way to construct larger groups, but nature does the same. The theory of the strong, weak, and electromagnetic interaction is based on the group: $SU(3)\otimes SU(2) \otimes U(1)$. 
 
 ---
 ### A "teeny" bit of history.

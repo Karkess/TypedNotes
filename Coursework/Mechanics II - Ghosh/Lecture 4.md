@@ -43,7 +43,7 @@ $$\int^\text{Volume}\,d\tau\rightarrow\text{Scalar Quantity}$$
 
 ---
 **Line integral Example**
-Calculate the line integral of the function $\vec{v}=\langle y^2,2x(y+1)\rangle$ from the point $a=(1,1,0)$ to the point $b=(2,2,0)$, along the paths (1) and (2). What is $\oint\vec{v}\cdot d\vec{\ell}$ for hte loop that goes along $a\rightarrow b$ along (1) and then returns to $a$ along (2). (Too lazy to draw diagram)
+Calculate the line integral of the function $\vec{v}=\langle y^2,2x(y+1)\rangle$ from the point $a=(1,1,0)$ to the point $b=(2,2,0)$, along the paths (1) and (2). What is $\oint\vec{v}\cdot d\vec{\ell}$ for the loop that goes along $a\rightarrow b$ along (1) and then returns to $a$ along (2). (Too lazy to draw diagram)
 $$\oint\vec{V}\cdot d\vec{\ell}\,_{(1)}=\int\vec{V} d\vec{\ell}_{{a\rightarrow b}\,_{(i)}}+\int\vec{V}\cdot d\vec{\ell}_{{b\rightarrow a}\,_{(ii)}}$$ $$\int\vec{V} d\vec{\ell}_{{a\rightarrow b}\,_{(i)}}=0+\int_1^21\,dx=1$$ $$\int\vec{V}\cdot d\vec{\ell}_{{b\rightarrow a}\,_{(ii)}}=0+\int_1^24(y+1)\,dy=10$$ $$\oint\vec{V}\cdot d\vec{\ell}\,_{(1)}=11$$
 
 We seem to be out of time for the returning path, but the line 2 is simply $y=x\quad y\in[1,2]$.

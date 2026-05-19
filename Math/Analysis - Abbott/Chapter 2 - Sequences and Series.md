@@ -50,7 +50,7 @@ $$\text{Template for a proof that }(x_n)\rightarrow x:$$
 ## 2.3 The Algebraic and Order Limit Theorems
 **Definition 2.3.1.** A sequence $(x_n)$ is *bounded* if there exists a number $M>0$ such that $|x_n|\le M$ for all $n\in\mathbb{N}$. 
 
-**Theorem 2.3.2.** *Every convergence sequence is bounded*.
+**Theorem 2.3.2.** *Every convergent sequence is bounded*.
 
 **Theorem 2.3.3 (Algebraic Limit Theorem).** *Let $\lim{a_n}=a$, and $\lim{b_n}=b$, then,*
 1. $\lim(ca_n)=ca\;\;\forall\;\;c\in\mathbb{R};$
